@@ -98,8 +98,8 @@ export PATH="$HOME/bin:$HOME/go/bin:$PATH"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cp='advcp -g'
-alias mv='advmv -g'
+alias cp='acp -g'
+alias mv='amv -g'
 alias fc='sudo fc-cache -fv'
 # get fastest mirrors in your neighborhood (Arch only)
 # alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
