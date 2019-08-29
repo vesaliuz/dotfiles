@@ -106,7 +106,7 @@ bindsym Mod1+b exec firefox-developer-edition
 bindsym $mod+F3 exec termite -e ranger
 bindsym $mod+Shift+F3 exec kdesu thunar
 bindsym $mod+t exec --no-startup-id pkill compton
-bindsym $mod+Ctrl+t exec --no-startup-id compton -b
+bindsym $mod+Ctrl+t exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
 bindsym Ctrl+Shift+p --release exec --no-startup-id i3-scrot -w
 bindsym Mod1+Shift+p --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf

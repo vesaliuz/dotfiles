@@ -68,7 +68,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git archlinux themes zsh-navigation-tools colored-man-pages zsh-syntax-highlighting )
+plugins=(git archlinux themes zsh-navigation-tools colored-man-pages tmux github zsh-syntax-highlighting )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,7 +86,7 @@ export PATH="$HOME/bin:$HOME/bin/go/bin:$PATH"
 # else
 #   export EDITOR='mvim'
 # fi
-
+export EDITOR='vim'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
