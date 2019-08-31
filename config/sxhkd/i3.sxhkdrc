@@ -11,6 +11,22 @@ super + shift + r
 super + shift + c
     reload
 
+super + q
+    i3-msg kill
+
+# border management
+
+super + u
+    i3-msg border none
+
+super + y
+    i3-msg border pixel 1
+
+super + n
+    i3-msg border normal
+
+alt + ctrl + f
+    flash_window
 
 # change focus
 super + h
@@ -90,11 +106,11 @@ super + e
     i3-msg toggle split
 
 # toggle tiling / floating
-super + shift + Space
+super + shift + space
     i3-msg floating toggle
 
 # change focus between tiling / floating windows
-super + Space
+super + space
     i3-msg focus mode_toggle
 
 # toggle sticky
@@ -119,7 +135,6 @@ ctrl + alt + Right
 ctrl + alt + Left
     i3-msg workspace prev
 
-
 # switch to workspace
 super +  {1-9}
 	i3-msg {workspace number} {1-9}
@@ -142,3 +157,10 @@ super + 0
 # Lock screen
 super + l
     ~/bin/autolock.sh
+
+# i3-scrot
+ctrl + shift + p
+    i3-scrot -w
+
+alt + shift + p
+    i3-scrot -s
