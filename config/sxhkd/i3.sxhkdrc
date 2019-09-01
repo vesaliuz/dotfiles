@@ -6,10 +6,10 @@
 
 #Reload i3
 super + shift + r
-	restart
+	i3-msg restart
 
 super + shift + c
-    reload
+    i3-msg reload
 
 super + q
     i3-msg kill
@@ -55,37 +55,37 @@ super + Right
     i3-msg focus right
 
 # move focused window
-super + h
+alt + super + h
     i3-msg move left
 
-super + j
+alt + super + j
     i3-msg move down
 
-super + k
+alt + super + k
     i3-msg move up
 
-super + l
+alt + super + l
     i3-msg move right
 
 # move focused with arrows
-super + Left
+alt + super + Left
     i3-msg move left
 
-super + Down
+alt + super + Down
     i3-msg move down
 
-super + Up
+alt + super + Up
     i3-msg move up
 
-super + Right
+alt + super + Right
     i3-msg move right
 
 
 # split orientation
-super + h 
+ctrl + super + h 
     i3-msg split h && notify-send "Tile Horizontally"
 
-super + v
+ctrl + super + v
     i3-msg split v && notify-send "Tile Vertically"
 
 alt + q
@@ -103,7 +103,7 @@ super + w
     i3-msg layout tabbed
 
 super + e
-    i3-msg toggle split
+    i3-msg layout toggle split
 
 # toggle tiling / floating
 super + shift + space
