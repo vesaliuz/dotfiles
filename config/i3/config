@@ -4,8 +4,8 @@
 
 #####################################################
 # file: ~/.config/i3/config
-# version 0.3 2019-08-31
-# restored, new version did not work
+# version 0.4 2019-09-01
+# trying to use sxhkd
 # ##################################################
 
 # set color variables
@@ -20,23 +20,23 @@ set $yellow              #dd9933
 set $red                 #aa5566
 set $green               #779988
  
-# theme colors
-set $bg-color            #334455
-set $inactive-bg-color   #334455
-set $text-color          #aacccc
-set $inactive-text-color #557788
-set $urgent-bg-color     #ee3355
- 
-# set window colors
-# class                 border              background         text                 indicator   child
-client.focused          $bg-color           $bg-color          $white               $red   $blue
-client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $red   $yellow
-client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $red   $cyan
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $red   $green
-client.background       $bg-color
+###--- pywal coloring ---###
+# Make it clear when failed using red - otherwise set i3 colors with wal from xresources
+set_from_resource $bg           i3wm.color0 #ff0000
+set_from_resource $bg-alt       i3wm.color14 #ff0000
+set_from_resource $fg           i3wm.color15 #ff0000
+set_from_resource $fg-alt       i3wm.color2 #ff0000
+set_from_resource $hl           i3wm.color13 #ff0000
 
+# class                 border      backgr. text indicator      child_border
+client.focused          $fg-alt     $bg     $hl  $fg-alt        $hl
+client.focused_inactive $fg-alt     $bg     $fg  $fg-alt        $fg-alt
+client.unfocused        $fg-alt     $bg     $fg  $fg-alt        $fg-alt
+client.urgent           $fg-alt     $bg     $fg  $fg-alt        $fg-alt
+client.placeholder      $fg-alt     $bg     $fg  $fg-alt        $fg-alt
 
-# Set mod key (Mod1=<Alt>, Mod4=<Super>)
+client.background       $bg
+
 set $mod Mod4
 
 # set default desktop layout (default is tiling)
@@ -51,10 +51,10 @@ border_radius 10
 hide_edge_borders none
 
 # change borders
-bindsym $mod+u border none
-bindsym $mod+y border pixel 1
-bindsym $mod+n border normal
-bindsym Mod1+Ctrl+f exec --no-startup-id flash_window
+# bindsym $mod+u border none
+# bindsym $mod+y border pixel 1
+# bindsym $mod+n border normal
+# bindsym Mod1+Ctrl+f exec --no-startup-id flash_window
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -107,16 +107,15 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec termite
-exec --no-startup-id pkill latte-dock
 # kill focused window
-bindsym $mod+q kill
+# bindsym $mod+q kill
 
 # start program launcher
-#bindsym $mod+d exec --no-startup-id dmenu_recency
-bindsym Mod1+space exec --no-startup-id rofi -modi "combi#window#drun#run" -show combi  -theme ~/.cache/wal/colors-rofi-dark.rasi
+# bindsym $mod+d exec --no-startup-id dmenu_recency
+# bindsym Mod1+space exec --no-startup-id rofi -modi "combi#window#drun#run" -show combi  -theme ~/.cache/wal/colors-rofi-dark.rasi
 
 # launch categorized menu
-bindsym $mod+z exec --no-startup-id morc_menu
+# bindsym $mod+z exec --no-startup-id morc_menu
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
@@ -156,10 +155,10 @@ bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 #bindsym $mod+ñ focus right
 #
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+# bindsym $mod+Left focus left
+# bindsym $mod+Down focus down
+# bindsym $mod+Up focus up
+# bindsym $mod+Right focus right
 
 # move focused window
 #bindsym $mod+Shift+j move left
@@ -168,51 +167,51 @@ bindsym $mod+Right focus right
 #bindsym $mod+Shift+semicolon move right
 #
 # alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+# bindsym $mod+Shift+Left move left
+# bindsym $mod+Shift+Down move down
+# bindsym $mod+Shift+Up move up
+# bindsym $mod+Shift+Right move right
 
 # workspace back and forth (with/without active container)
-workspace_auto_back_and_forth yes
-bindsym $mod+b workspace back_and_forth
-bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
+# workspace_auto_back_and_forth yes
+# bindsym $mod+b workspace back_and_forth
+# bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
 # split orientation
-bindsym $mod+h split h;exec notify-send 'tile horizontally'
-bindsym $mod+v split v;exec notify-send 'tile vertically'
-bindsym Mod1+q split toggle
+# bindsym $mod+h split h;exec notify-send 'tile horizontally'
+# bindsym $mod+v split v;exec notify-send 'tile vertically'
+# bindsym Mod1+q split toggle
 
 # toggle fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+# bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+# bindsym $mod+s layout stacking
+# bindsym $mod+w layout tabbed
+# bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+# bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+# bindsym $mod+space focus mode_toggle
 
 # toggle sticky
-bindsym $mod+Shift+s sticky toggle
+# bindsym $mod+Shift+s sticky toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+#bindsym $mod+a focus parent
 
 # move the currently focused window to the scratchpad
-bindsym $mod+Shift+minus move scratchpad
+# bindsym $mod+Shift+minus move scratchpad
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
-bindsym $mod+minus scratchpad show
+# bindsym $mod+minus scratchpad show
 
 #navigate workspaces next / previous
-bindsym Mod1+Ctrl+Right workspace next
-bindsym Mod1+Ctrl+Left workspace prev
+# bindsym Mod1+Ctrl+Right workspace next
+# bindsym Mod1+Ctrl+Left workspace prev
 
 ### Multimedia keys
 # Pulse Audio controls
@@ -282,39 +281,39 @@ set $ws7 7:7
 set $ws8 8:
 set $ws9 9:
 
-# switch to workspace
-bindsym $mod+1 workspace $ws1
-bindsym $mod+2 workspace $ws2
-bindsym $mod+3 workspace $ws3
-bindsym $mod+4 workspace $ws4
-bindsym $mod+5 workspace $ws5
-bindsym $mod+6 workspace $ws6
-bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
-
-# Move focused container to workspace
-bindsym $mod+Ctrl+1 move container to workspace $ws1
-bindsym $mod+Ctrl+2 move container to workspace $ws2
-bindsym $mod+Ctrl+3 move container to workspace $ws3
-bindsym $mod+Ctrl+4 move container to workspace $ws4
-bindsym $mod+Ctrl+5 move container to workspace $ws5
-bindsym $mod+Ctrl+6 move container to workspace $ws6
-bindsym $mod+Ctrl+7 move container to workspace $ws7
-bindsym $mod+Ctrl+8 move container to workspace $ws8
-bindsym $mod+Ctrl+9 move container to workspace $ws9
-
-# Move to workspace with focused container
-bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
-bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
-bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
-bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
-bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
-bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
-
+# # switch to workspace
+# bindsym $mod+1 workspace $ws1
+# bindsym $mod+2 workspace $ws2
+# bindsym $mod+3 workspace $ws3
+# bindsym $mod+4 workspace $ws4
+# bindsym $mod+5 workspace $ws5
+# bindsym $mod+6 workspace $ws6
+# bindsym $mod+7 workspace $ws7
+# bindsym $mod+8 workspace $ws8
+# bindsym $mod+9 workspace $ws9
+# 
+# # Move focused container to workspace
+# bindsym $mod+Ctrl+1 move container to workspace $ws1
+# bindsym $mod+Ctrl+2 move container to workspace $ws2
+# bindsym $mod+Ctrl+3 move container to workspace $ws3
+# bindsym $mod+Ctrl+4 move container to workspace $ws4
+# bindsym $mod+Ctrl+5 move container to workspace $ws5
+# bindsym $mod+Ctrl+6 move container to workspace $ws6
+# bindsym $mod+Ctrl+7 move container to workspace $ws7
+# bindsym $mod+Ctrl+8 move container to workspace $ws8
+# bindsym $mod+Ctrl+9 move container to workspace $ws9
+# 
+# # Move to workspace with focused container
+# bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
+# bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
+# bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
+# bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
+# bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
+# bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
+# bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
+# bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+# bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
+# 
 # Open applications on specific workspaces
 assign [class="(?i)Firefox"] $ws2
 for_window [class="(?i)Firefox"] focus
@@ -446,15 +445,12 @@ bindsym Mod1+Shift+t exec --no-startup-id variety -t && wal -i $(cat $HOME/.conf
 ######################################################################################################
 
 # Autostart applications
-exec --no-startup-id pkill latte-dock
-exec --no-startup-id /usr/lib/gsd-xsettings
-exec --no-startup-id ~/.config/polybar/polybar-6/launch.sh
 
-#xautolock
+exec --no-startup-id ~/.config/polybar/polybar-6/launch.sh
 exec --no-startup-id alternating_layouts.py
 exec --no-startup-id xautolock -time 10 -locker "~/.config/autolock.sh
 exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
-
+exec --no-startup-id sxhkd -c ~/.config/sxhkd/i3.sxhkdrc
 exec --no-startup-id wal $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt); sleep 1; compton -b --config ~/.config/compton/compton.conf
 exec --no-startup-id nm-applet
 exec --no-startup-id gnome-power-manager

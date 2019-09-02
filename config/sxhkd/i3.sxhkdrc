@@ -1,166 +1,93 @@
-#################################################
-#   file: ~/.config/sxhkd/i3.sxhkdrc
-#   2019-08-27 version 0.1
-#   This file contains i3 specific key bindings
-#################################################
+################################################
+# file: ~/.config/sxhkd/i3.sxhkdrc
+# version 0.2 2019-09-01
+# new version based in a previus implementation
+################################################
 
-#Reload i3
+# Go to, move windows to workspace
+super + {_,shift +} {1,2,3,4,5,6,7,8,9}
+	i3-msg {workspace,move container to workspace} {1,2,3,4,5,6,7,8,9}
+
+alt + ctrl + {left,right}
+    i3-msg {workspace}{prev,next}
+
+
+# Restart I3 inplace
 super + shift + r
 	i3-msg restart
 
+# reload config
 super + shift + c
     i3-msg reload
 
+# Kill a window
 super + q
-    i3-msg kill
+	i3-msg kill
 
-# border management
+# Change Focus, move window
+super + {_,shift +} {h,j,k,l}
+	i3-msg {focus,move} {left,down,up,right}
 
-super + u
-    i3-msg border none
+# Change Focus, move window
+super + {_,shift +} {Left,Down,Up,Right}
+	i3-msg {focus,move} {left,down,up,right}
 
-super + y
-    i3-msg border pixel 1
-
-super + n
-    i3-msg border normal
-
-alt + ctrl + f
-    flash_window
-
-# change focus
-super + h
-    i3-msg focus left
-
-super + j
-    i3-msg focus down
-
-super + k
-    i3-msg focus up
-
-super + l
-    i3-msg focus right
-
-# change focus with arrows
-super + Left
-    i3-msg focus left
-
-super + Down
-    i3-msg focus down
-
-super + Up
-    i3-msg focus up
-
-super + Right
-    i3-msg focus right
-
-# move focused window
-alt + super + h
-    i3-msg move left
-
-alt + super + j
-    i3-msg move down
-
-alt + super + k
-    i3-msg move up
-
-alt + super + l
-    i3-msg move right
-
-# move focused with arrows
-alt + super + Left
-    i3-msg move left
-
-alt + super + Down
-    i3-msg move down
-
-alt + super + Up
-    i3-msg move up
-
-alt + super + Right
-    i3-msg move right
-
-
-# split orientation
-ctrl + super + h 
-    i3-msg split h && notify-send "Tile Horizontally"
-
-ctrl + super + v
-    i3-msg split v && notify-send "Tile Vertically"
+# Split horizontaly or virtically
+alt + {h,v}
+	i3-msg split {h,v}
 
 alt + q
     i3-msg split toggle
 
-# toggle fullscreen mode for the focused container
+# enter fullscreen
 super + f
-    i3-msg fullscreen toggle
+	i3-msg fullscreen toggle
 
-# change container layout (stacked, tabbed, toggle split)
-super + s
-    i3-msg layout stacking
+# Change layout
+super + {s,w,e}
+	i3-msg layout {stacking,tabbed,toggle split}
 
-super + w
-    i3-msg layout tabbed
+# Toggle Tiling/Floating
 
-super + e
-    i3-msg layout toggle split
-
-# toggle tiling / floating
 super + shift + space
-    i3-msg floating toggle
+	i3-msg floating toggle
 
-# change focus between tiling / floating windows
+ctrl + super + space
+    i3-msg sticky toggle
+
+# Change focus between tiling/floating
 super + space
-    i3-msg focus mode_toggle
+	i3-msg focus mode_toggle
 
-# toggle sticky
-super + shift + s
-    i3-msg sitcky toggle
-
-# focus the parent container
+# focus parent container
 super + a
-    i3-msg focus parent
+	i3-msg focus parent
 
-# move the currently focused window to the scratchpad
+# focus child container
+super + c
+	i3-msg focus child
+
+# exit i3 session
+super + shift + e
+	clearine
+
+# Resize
+super + alt + {h,j,k,l}
+	i3-msg resize{shrink width 5 px,grow height 5 px,shrink height 5 px,grow width 5 px}
+
+# change borders
+super + u
+    i3-msg border none
+
+super + y
+    i3-msg border pixel 3
+
+super + n
+    i3-msg border normal
+
+# scratchpad
 super + shift + minus
     i3-msg move scratchpad
 
 super + minus
     i3-msg scratchpad show
-
-### workspace navigation
-ctrl + alt + Right
-    i3-msg workspace next
-
-ctrl + alt + Left
-    i3-msg workspace prev
-
-# switch to workspace
-super +  {1-9}
-	i3-msg {workspace number} {1-9}
-
-
-# Move focused container to workspace
-super + ctrl + {1-9}
-    i3-msg {,move container to workspace number} {1-9}
-
-
-# Move to workspace with focused container
-super + shift + {1-9}
-    i3-msg {workspace number,move container to workspace number} {1-9}
-
-
-# Set shut down, restart and locking features
-super + 0
-    clearine
-
-# Lock screen
-super + l
-    ~/bin/autolock.sh
-
-# i3-scrot
-ctrl + shift + p
-    i3-scrot -w
-
-alt + shift + p
-    i3-scrot -s

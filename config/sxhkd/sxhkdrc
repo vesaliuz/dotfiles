@@ -127,9 +127,6 @@ super + v
 super + w
     vivaldi-snapshot
 
-#Hide polybar
-super + y
-    polybar-msg cmd toggle
 
 
 #Xkill
