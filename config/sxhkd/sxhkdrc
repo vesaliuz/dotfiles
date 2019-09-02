@@ -1,6 +1,6 @@
 ####################################
 # file: ~/.config/sxhkd/sxhkdrc
-# 2019-08-27 version 0.1
+# 2019-09-01 version 0.2
 # This file contains common bind 
 # keys for all WMs/DMs that support 
 # sxhkd
@@ -46,7 +46,7 @@ alt + shift + n
     variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
  
  #Wallpaper previous
-alt + shift +p 
+alt + shift + p 
     variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
  
  #Wallpaper favorite
@@ -87,7 +87,7 @@ super + F6
 super + F7
     virtualbox
 
-#Thunar
+#Dolphin
 super + F8
     dolphin
 
@@ -101,7 +101,7 @@ super + F10
 
 #Rofi
 alt + d
-    rofi -modi "combi#window#drun#run" -show combi  -theme arthur-dark.rasi
+    rofi -modi "combi#window#drun#run" -show combi  -theme ~/.cache/wal/colors-rofi-dark.rasi
 
 #Htop
 super + h
@@ -110,10 +110,6 @@ super + h
 #music player
 super + m
     lollypop
-
-# Rofi theme selector
-ctrl + r
-    rofi-theme-selector
 
 # terminator
 super + t
@@ -127,15 +123,13 @@ super + v
 super + w
     vivaldi-snapshot
 
-
-
 #Xkill
 super + Escape
     xkill
 
 #Terminal emulator
 super + Return
-	alacritty
+	termite
 
 
 #File-Manager
@@ -164,7 +158,7 @@ ctrl + alt + a
 
 #Firefox
 ctrl + alt + f
-     firefox-developer-edition
+     firefox
 
 
 #Nitrogen

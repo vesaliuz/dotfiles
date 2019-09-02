@@ -375,73 +375,73 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 bindsym $mod+0 exec --no-startup-id clearine
 
 # Resize window (you can also use the mouse for that)
-bindsym $mod+r mode "resize"
-mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 5 px or 5 ppt
-        bindsym k resize grow height 5 px or 5 ppt
-        bindsym l resize shrink height 5 px or 5 ppt
-        bindsym semicolon resize grow width 5 px or 5 ppt
-
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
-
-        # exit resize mode: Enter or Escape
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-}
-
-# Lock screen
-bindsym $mod+l exec --no-startup-id ~/.config/autolock.sh
-
-#########################################################
-################# VARIETY CONFIGURATION #################
-#########################################################
-exec --no-startup-id variety && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
-#Wallpaper trash
- bindsym Mod1+t exec --no-startup-id variety -t
- 
- #Wallpaper next
-  bindsym Mod1+n exec --no-startup-id variety -n
- 
- #Wallpaper previous
-  bindsym Mod1+p exec --no-startup-id variety -p
- 
- #Wallpaper favorite
-  bindsym Mod1+f exec --no-startup-id variety -f
- 
- #Wallpaper pause
-  bindsym Mod1+Up exec --no-startup-id variety --pause
- 
- #Wallpaper resume
-  bindsym Mod1+Down exec --no-startup-id variety --resume
-
-#########################
-#VARIETY KEYS WITH PYWAL#
-#########################
-  
- #Wallpaper trash
-bindsym Mod1+Shift+t exec --no-startup-id variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
- 
- #Wallpaper next
-  bindsym Mod1+Shift+n exec --no-startup-id variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
- 
- #Wallpaper previous
-  bindsym Mod1+Shift+p exec --no-startup-id variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
- 
- #Wallpaper favorite
-  bindsym Mod1+Shift+f exec --no-startup-id variety -f && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
- 
- #Wallpaper update
-  bindsym Mod1+Shift+u exec --no-startup-id wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
-#######################################################################################################
+# bindsym $mod+r mode "resize"
+# mode "resize" {
+#         # These bindings trigger as soon as you enter the resize mode
+#         # Pressing left will shrink the window’s width.
+#         # Pressing right will grow the window’s width.
+#         # Pressing up will shrink the window’s height.
+#         # Pressing down will grow the window’s height.
+#         bindsym j resize shrink width 5 px or 5 ppt
+#         bindsym k resize grow height 5 px or 5 ppt
+#         bindsym l resize shrink height 5 px or 5 ppt
+#         bindsym semicolon resize grow width 5 px or 5 ppt
+# 
+#         # same bindings, but for the arrow keys
+#         bindsym Left resize shrink width 10 px or 10 ppt
+#         bindsym Down resize grow height 10 px or 10 ppt
+#         bindsym Up resize shrink height 10 px or 10 ppt
+#         bindsym Right resize grow width 10 px or 10 ppt
+# 
+#         # exit resize mode: Enter or Escape
+#         bindsym Return mode "default"
+#         bindsym Escape mode "default"
+# }
+# 
+# # Lock screen
+# bindsym $mod+l exec --no-startup-id ~/.config/autolock.sh
+# 
+# #########################################################
+# ################# VARIETY CONFIGURATION #################
+# #########################################################
+# exec --no-startup-id variety && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+# #Wallpaper trash
+#  bindsym Mod1+t exec --no-startup-id variety -t
+#  
+#  #Wallpaper next
+#   bindsym Mod1+n exec --no-startup-id variety -n
+#  
+#  #Wallpaper previous
+#   bindsym Mod1+p exec --no-startup-id variety -p
+#  
+#  #Wallpaper favorite
+#   bindsym Mod1+f exec --no-startup-id variety -f
+#  
+#  #Wallpaper pause
+#   bindsym Mod1+Up exec --no-startup-id variety --pause
+#  
+#  #Wallpaper resume
+#   bindsym Mod1+Down exec --no-startup-id variety --resume
+# 
+# #########################
+# #VARIETY KEYS WITH PYWAL#
+# #########################
+#   
+#  #Wallpaper trash
+# bindsym Mod1+Shift+t exec --no-startup-id variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+#  
+#  #Wallpaper next
+#   bindsym Mod1+Shift+n exec --no-startup-id variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+#  
+#  #Wallpaper previous
+#   bindsym Mod1+Shift+p exec --no-startup-id variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+#  
+#  #Wallpaper favorite
+#   bindsym Mod1+Shift+f exec --no-startup-id variety -f && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+#  
+#  #Wallpaper update
+#   bindsym Mod1+Shift+u exec --no-startup-id wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+# #######################################################################################################
 ######################################################################################################
 
 # Autostart applications
@@ -450,6 +450,7 @@ exec --no-startup-id ~/.config/polybar/polybar-6/launch.sh
 exec --no-startup-id alternating_layouts.py
 exec --no-startup-id xautolock -time 10 -locker "~/.config/autolock.sh
 exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
+exec --no-startup-id sxhkd
 exec --no-startup-id sxhkd -c ~/.config/sxhkd/i3.sxhkdrc
 exec --no-startup-id wal $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt); sleep 1; compton -b --config ~/.config/compton/compton.conf
 exec --no-startup-id nm-applet
@@ -460,7 +461,6 @@ exec --no-startup-id redshift
 exec --no-startup-id ~/.config/i3/scripts/start-conky-wo.sh
 exec --no-startup-id pkill flashfocus; sleep 1; flashfocus
 exec --no-startup-id albert
-
 
 
 #############################
