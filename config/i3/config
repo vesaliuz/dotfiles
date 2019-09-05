@@ -315,21 +315,21 @@ set $ws9 9:
 # bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 # 
 # Open applications on specific workspaces
-assign [class="(?i)Firefox"] $ws2
+assign [class="(?i)Firefox"] 2
 for_window [class="(?i)Firefox"] focus
-assign [class="Terminator"] $ws1
-assign [class="elisa"] $ws3
-assign [class="Lollypop"] $ws3
-assign [class="Atom"] $ws6
-assign [class="Code"] $ws6
-assign [class="(?i)Gimp"] $ws6
-assign [class="retroarch"] $ws4
-assign [class="kodi"] $ws5
-assign [class="vlc"] $ws5
+assign [class="Terminator"] 1
+assign [class="elisa"] 3
+assign [class="Lollypop"] 3
+assign [class="Atom"] 6
+assign [class="Code"] 6
+assign [class="(?i)Gimp"] 7
+assign [class="retroarch"] 4
+assign [class="kodi"] 5
+assign [class="vlc"] 5
 for_window [class="vlc"] focus
-assign [class="Gnome-boxes"] $ws9
-assign [class="Virt-manager"] $ws9
-assign [class="HandBrake"] $ws4
+assign [class="Gnome-boxes"] 9
+assign [class="Virt-manager"] 9
+assign [class="HandBrake"] 4
 # Open specific applications in floating mode
 for_window [class="retroarch"] floating enable border pixel 1
 for_window [class="elisa"] floating enable border normal
@@ -461,6 +461,7 @@ exec --no-startup-id redshift
 exec --no-startup-id ~/.config/i3/scripts/start-conky-wo.sh
 exec --no-startup-id pkill flashfocus; sleep 1; flashfocus
 exec --no-startup-id albert
+exec --no-startup-id udiskie &
 
 
 #############################

@@ -167,7 +167,7 @@ ctrl + alt + i
 
 #Screen-Locker
 ctrl + alt + k
-     autolock.sh
+     ~/bin/autolock.sh
 
 
 

@@ -111,8 +111,11 @@ alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 #Cleanup orphaned packages
-alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
-alias mpdris='mpd --kill && mpd && mpDris2 &'
+alias cleanup="sudo pacman -Rns $(pacman -Qtdq)"
+alias mpdris="mpd --kill && mpd && mpDris2 &"
+alias 3tbdisk="cd /run/media/vesaliuz/3TBDISK"
+alias 2tbdisk="cd /run/media/vesaliuz/2TBDISK"
+alias cdgames="cd /run/media/vesaliuz/GAMES"
 ufetch
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
