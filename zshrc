@@ -4,11 +4,17 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/vesaliuz/.oh-my-zsh"
 
+if [[ -n $SSH_CONNECTION ]]; then
+      ZSH_THEME="robbyrussell"
+  else
+        ZSH_THEME="agnoster-nanof"
+fi
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster-nanof"
+# ZSH_THEME="agnoster-nanof"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -76,6 +82,7 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH="$HOME/bin:$HOME/bin/go/bin:$PATH"
+export QT_QPA_PLATFORMTHEME="qt5ct"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

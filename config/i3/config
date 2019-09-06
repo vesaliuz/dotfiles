@@ -461,6 +461,7 @@ exec --no-startup-id redshift
 exec --no-startup-id ~/.config/i3/scripts/start-conky-wo.sh
 exec --no-startup-id pkill flashfocus; sleep 1; flashfocus
 exec --no-startup-id albert
+exec --no-startup-id variety -n &
 exec --no-startup-id udiskie &
 
 
