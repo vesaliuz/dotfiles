@@ -85,10 +85,11 @@ Plug 'ludwig/split-manpage.vim'
 " html
 "" HTML Bundle
 Plug 'hail2u/vim-css3-syntax'
+Plug 'ap/vim-css-color'
 Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-haml'
 Plug 'mattn/emmet-vim'
-
+Plug 'lilydjwg/colorizer'
 
 " javascript
 "" Javascript Bundle
