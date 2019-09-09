@@ -120,7 +120,7 @@ super + v
     pavucontrol
 
 #Browser
-super + w
+alt + v
     vivaldi-snapshot
 
 #Xkill
