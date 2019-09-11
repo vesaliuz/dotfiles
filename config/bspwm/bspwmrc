@@ -44,6 +44,10 @@ bspc rule -a Conky state=floating manage=off lower=on
 bspc rule -a Plasma state=floating manage=off layer=normal
 bspc rule -a plasmashell sticky=on layer=above state=floating
 bspc rule -a albert state=floating focus=on follow=on border=off
+bspc rule -a Wrapper-2.0 state=floating border=off manage=off
+bspc rule -a "Whisker Menu" state=floating border=off manage=off
+bspc rule -a xfce4-session floating=on fullscreen=on
+bspc rule -a xfce4-panel floating=on manage=off
 bspc rule -a Pavucontrol state=floating sticky=on
 bspc rule -a feh state=floating
 bspc rule -a VirtualBox Manager state=fullscreen
