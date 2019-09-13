@@ -453,16 +453,14 @@ exec --no-startup-id xautolock -time 10 -locker "~/.config/autolock.sh
 exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
 exec --no-startup-id sxhkd
 exec --no-startup-id sxhkd -c ~/.config/sxhkd/i3.sxhkdrc
-exec --no-startup-id wal $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt); sleep 1; compton -b --config ~/.config/compton/compton.conf
+exec --no-startup-id variety ; sleep 1; wal $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt); sleep 1; compton -b --config ~/.config/compton/compton.conf
 exec --no-startup-id nm-applet
-exec --no-startup-id gnome-power-manager
-exec --no-startup-id pamac-tray
-exec --no-startup-id bluetooth-applet
+exec --no-startup-id xfce4-power-manager
+exec --no-startup-id blueberry-tray
 exec --no-startup-id redshift
 exec --no-startup-id ~/.config/i3/scripts/start-conky-wo.sh
 exec --no-startup-id pkill flashfocus; sleep 1; flashfocus
 exec --no-startup-id albert
-exec --no-startup-id variety -n &
 exec --no-startup-id udiskie &
 
 
