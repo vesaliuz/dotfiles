@@ -6,7 +6,7 @@ alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 #Cleanup orphaned packages
-alias cleanup="sudo pacman -Rns (pacman -Qtdq)"
+alias cleanup="sudo pacman -Rns $(pacman -Qtdq)"
 alias mpdris="mpd --kill && mpd && mpDris2 &"
 alias 3tbdisk="cd /run/media/vesaliuz/3TBDISK"
 alias 2tbdisk="cd /run/media/vesaliuz/2TBDISK"
