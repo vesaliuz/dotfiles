@@ -1,0 +1,52 @@
+sw_volume: 96
+audio_device_state:1:pulse audio
+audio_device_state:1:toggle_visualizer
+state: pause
+current: 36
+time: 604.118000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Procol Harum - A Whiter Shade of Pale.mp3
+1:New Trolls - Espanolada-J4e61Y0YUYo.m4a
+2:Music/Víctor Jara/Deja La Vida Volar - Volumen II Retratos/07 El Cigarrito.m4a
+3:Music/Víctor Jara/Deja La Vida Volar - Volumen II Retratos/13 Luchín.m4a
+4:Music/Víctor Jara/Deja La Vida Volar - Volumen II Retratos/19 La Beata.m4a
+5:Music/Víctor Jara/Deja La Vida Volar - Volumen II Retratos/22 Cai Cai Vilú.m4a
+6:Music/Víctor Jara/Deja La Vida Volar - Volumen III Manifiesto/3-01 Charagua.m4a
+7:Music/Víctor Jara/Deja La Vida Volar - Volumen III Manifiesto/3-03 El Arado.m4a
+8:Music/Víctor Jara/Deja La Vida Volar - Volumen III Manifiesto/3-04 La Pala.m4a
+9:Music/Víctor Jara/Deja La Vida Volar - Volumen III Manifiesto/3-05 Qué Saco Rogar Al Cielo.m4a
+10:Music/Víctor Jara/Deja La Vida Volar - Volumen III Manifiesto/3-09 El Aparecido.m4a
+11:Music/Víctor Jara/Deja La Vida Volar - Volumen III Manifiesto/3-10 Preguntas Por Puerto Montt.m4a
+12:Music/Víctor Jara/Deja La Vida Volar - Volumen III Manifiesto/3-14 Ni Chicha Ni Limoná.m4a
+13:Music/Víctor Jara/Deja La Vida Volar - Volumen III Manifiesto/3-19 Plegaria A Un Labrador.m4a
+14:Music/Víctor Jara/Deja La Vida Volar - Volumen III Manifiesto/3-20 Manifiesto.m4a
+15:Music/Víctor Jara/Deja La Vida Volar - Volumen IV Canto Libre/08 Ya Parte El Galgo Terrible.m4a
+16:Music/Víctor Jara/Deja La Vida Volar - Volumen IV Canto Libre/19 Las Casitas Del Barrio Alto.m4a
+17:Music/Víctor Jara/Deja La Vida Volar - Volumen IV Canto Libre/22 El Derecho De Vivir En Paz.m4a
+18:Music/Víctor Jara/Deja La Vida Volar - Volumen IV Canto Libre/24 Oficina Abandonada.m4a
+19:Music/Víctor Jara/Víctor Jara Sinfónico/01 Charagua (Obertura).m4a
+20:Music/Víctor Jara/Víctor Jara Sinfónico/09 El Aparecido.m4a
+21:Music/Víctor Jara/Víctor Jara Sinfónico/12 Luchín.m4a
+22:Music/Víctor Jara/Víctor Jara Sinfónico/14 El Derecho de Vivir en Paz.m4a
+23:Music/The Human League/The Greatest Hits/15 Human.m4a
+24:Musica/Blondie/The Best of Blondie/01 Heart of Glass.m4a
+25:Musica/David Bowie • Nothing Has Changed 3CD [1964 - 2014] 320/Nothing Has Changed - The Very Best Of Bowie [1964 - 2014] 3CD/CD • II •/11. Let's Dance (single version).mp3
+26:Musica/David Bowie • Nothing Has Changed 3CD [1964 - 2014] 320/Nothing Has Changed - The Very Best Of Bowie [1964 - 2014] 3CD/CD • II •/12. Fashion (single version).mp3
+27:Musica/David Bowie • Nothing Has Changed 3CD [1964 - 2014] 320/Nothing Has Changed - The Very Best Of Bowie [1964 - 2014] 3CD/CD • III •/11. Starman (original single mix).mp3
+28:Musica/David Bowie • Nothing Has Changed 3CD [1964 - 2014] 320/Nothing Has Changed - The Very Best Of Bowie [1964 - 2014] 3CD/CD • III •/02. Young Americans (2007 Tony Visconti mix single edit).mp3
+29:Musica/Deep Purple - Machine Head/06. Lazy.mp3
+30:Musica/Inti-Illimani/Inti-Illimani/(1999) Inti-Illimani Sinfónico/01 - El Mercado de Testaccio.mp3
+31:Musica/METAL RESISTANCE/02 Karate.m4a
+32:Musica/Olivia Newton-John - Magic - The Very Best Of Olivia Newton-John - ( 2001)/Olivia Newton-John - Magic.m4a
+33:Musica/Olivia Newton-John - Magic - The Very Best Of Olivia Newton-John - ( 2001)/Olivia Newton-John - Physical.m4a
+34:Musica/Olivia Newton-John - Magic - The Very Best Of Olivia Newton-John - ( 2001)/Olivia Newton-John - Twist Of Fate.m4a
+35:Musica/Olivia Newton-John - Magic - The Very Best Of Olivia Newton-John - ( 2001)/Olivia Newton-John - Xanadu (With Electric Light Orchestra).m4a
+36:Musica/SUPER EUROBEAT Mix for Sensible Driving and Yielding to Pedestrians.mp3
+playlist_end

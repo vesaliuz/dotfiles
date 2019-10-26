@@ -1,0 +1,18 @@
+[General]
+Name=Trackpad de Leonardo Vejar
+Class=0x002594
+SupportedTechnologies=BR/EDR;
+Trusted=true
+Blocked=false
+Services=00001124-0000-1000-8000-00805f9b34fb;00001200-0000-1000-8000-00805f9b34fb;
+
+[LinkKey]
+Key=BAE49F7266FBC5E9C43D979CA7F9ABE7
+Type=0
+PINLength=0
+
+[DeviceID]
+Source=2
+Vendor=1452
+Product=782
+Version=352
