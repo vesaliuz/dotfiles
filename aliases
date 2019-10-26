@@ -1,5 +1,6 @@
 alias cp='acp -g'
 alias mv='amv -g'
+alias ls='ls --color=auto'
 alias fc='sudo fc-cache -fv'
 #youtube-dl
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
