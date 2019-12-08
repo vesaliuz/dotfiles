@@ -45,7 +45,7 @@ set $mod Mod4
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
 default_border pixel 3
 new_float normal
-border_radius 10
+# border_radius 10
 
 # Hide borders
 hide_edge_borders none
@@ -140,7 +140,7 @@ bindsym Mod1+b exec firefox-developer-edition
 bindsym $mod+F3 exec termite -e ranger
 bindsym $mod+Shift+F3 exec kdesu thunar
 bindsym $mod+t exec --no-startup-id pkill compton
-bindsym $mod+Ctrl+t exec --no-startup-id compton -b
+bindsym $mod+Ctrl+t exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
 bindsym Ctrl+Shift+p --release exec --no-startup-id i3-scrot -w
 bindsym Mod1+Shift+p --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
@@ -458,7 +458,7 @@ exec --no-startup-id variety ; sleep 1; wal $(cat $HOME/.config/variety/wallpape
 exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
-exec --no-startup-id blueberry-tray
+exec --no-startup-id blueman-applet
 exec --no-startup-id redshift
 # exec --no-startup-id ~/.config/i3/scripts/start-conky-wo.sh
 exec --no-startup-id pkill flashfocus; sleep 1; flashfocus

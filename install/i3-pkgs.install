@@ -1,9 +1,8 @@
-flashfocus
 wmctrl
 termite
 rofi
 volumeicon
-compton
+compton-tryone-git
 scrot
 i3-scrot
 i3blocks
@@ -29,3 +28,4 @@ clearine-git
 texmaker
 w3m
 termite-ranger-fix-git
+albert
