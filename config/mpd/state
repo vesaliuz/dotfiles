@@ -1,10 +1,9 @@
-sw_volume: 98
+sw_volume: 72
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: play
-current: 31
-time: 23.790000
-random: 1
+state: stop
+current: 44
+random: 0
 repeat: 0
 single: 0
 consume: 0
@@ -47,4 +46,14 @@ playlist_begin
 32:Musica/Neuva cancion/La Internacional/03-Las ollitas.mp3
 33:Musica/Neuva cancion/La Internacional/01-La Internacional.mp3
 34:Musica/Neuva cancion/La Internacional/13-La Represion.mp3
+35:iTunes/Various Artists/Initial D Fifth Stage D Selection/02 Gas Gas Gas.m4a
+36:iTunes/Various Artists/Initial D Super Euro-Best/08 Deja Vu.m4a
+37:Musica/Initial D Music Lossy Collection [ver. 5.1]/[2003.06.25] Initial D Special Stage Original Soundtracks/CD1/03. Dave Rodgers - Space Boy.m4a
+38:Musica/PERFUME/[120815] 16th Single - Spending all my time/01. Spending all my time.mp3
+39:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 2/12 Spring Of Life.m4a
+40:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 3/01 Party Maker.m4a
+41:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 3/10 Flash.m4a
+42:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 3/11 Tokyo Girl (Remastered).m4a
+43:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 1/11 Game.m4a
+44:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 1/14 Edge (Triangle-Mix).m4a
 playlist_end
