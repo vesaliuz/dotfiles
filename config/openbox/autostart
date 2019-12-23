@@ -14,7 +14,7 @@ sleep 1; manjaro-compositor --start &
 ### launch thunar in daemon mode for faster startup
 ### comment if you would rather use pcmanfm
 thunar --daemon &
-
+sleep 1; sxhkd &
 ### use desktop icons and pcmanfm as wallpaper manager
 ### uncomment next line and comment nitrogen below
 #pcmanfm --desktop &
@@ -25,11 +25,11 @@ sleep 1; nitrogen --restore &
 
 ### launch tint2 and polybar
 sleep 1; manjaro-tint2-session &
-sleep 1; polybar -c $HOME/.config/polybar/config  mainbar-openbox &
-sleep 1; polybar -c $HOME/.config/polybar/config mainbar-openbox-extra &
+# sleep 1; polybar -c $HOME/.config/polybar/config  mainbar-openbox &
+# sleep 1; polybar -c $HOME/.config/polybar/config mainbar-openbox-extra &
 
 ### launch conky
-conky -c ~/.config/conky/WO-Holo-LUA.conkyrc &
+conky -c ~/.config/conky/AUR-Allinone.conkyrc &
 
 ### volumeicon
 sleep 1; volumeicon &
@@ -39,6 +39,7 @@ skippy-xd --config ~/.config/skippy-xd/skippy-xd.rc --start-daemon &
 
 ## super key for menu
 xcape -e 'Super_L=Alt_L|F1' &
+albert &
 
 ### PolicyKit authentication
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &

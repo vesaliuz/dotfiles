@@ -3,7 +3,7 @@
 sxhkd &
 sxhkd -c /home/vesaliuz/.config/sxhkd/bspwm.sxhkdrc &
 compton -b --config /home/vesaliuz/.config/compton/compton.conf &
-variety;sleep 2s & 
+#variety;sleep 2s & 
 wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt) &
 /home/vesaliuz/.config/polybar/launch.sh &
 redshift &

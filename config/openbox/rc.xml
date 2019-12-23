@@ -20,11 +20,11 @@
   </placement>
   <theme>
     <name>Arc-Maia-Dark</name>
-    <titleLayout>NLIMC</titleLayout>
+    <titleLayout>CIMLN</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Roboto</name>
+      <name>SFNS Display</name>
       <size>11</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
@@ -42,7 +42,7 @@
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
-      <name>Roboto</name>
+      <name>SF Pro Display</name>
       <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>

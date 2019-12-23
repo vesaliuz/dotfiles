@@ -177,16 +177,17 @@ ctrl + alt + k
 
 #Raises volume
 XF86AudioRaiseVolume
-    amixer set Master 5%+
+#    amixer set Master 5%+
+    pamixer -i 5
 
 #Lowers volume
 XF86AudioLowerVolume
-    amixer set Master 5%-
-
+#    amixer set Master 5%-
+    pamixer -d 5
 #Mute
 XF86AudioMute
-    amixer -D pulse set Master 1+ toggle
-
+#    amixer -D pulse set Master 1+ toggle
+    pamixer -t
 
 #PLAY
 XF86AudioPlay
