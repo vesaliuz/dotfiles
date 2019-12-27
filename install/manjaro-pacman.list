@@ -40,8 +40,6 @@ arc-themes-breath
 arc-themes-maia
 archlinux-appstream-data
 archlinux-keyring
-arcolinux-bspwm-git
-arcolinux-mirrorlist-git
 argon2
 aribb24
 ark
@@ -62,8 +60,6 @@ autoconf
 autoconf-archive
 automake
 avahi
-awesome
-awesome-freedesktop
 awesome-terminal-fonts
 b43-fwcutter
 babl
@@ -101,6 +97,7 @@ bspwm-git
 bspwm-ruler
 btrfs-progs
 bubblewrap
+bullet
 bzip2
 c-ares
 ca-certificates
@@ -143,6 +140,7 @@ compton-conf
 compton-tryone-git
 confuse
 conky-lua-archers
+connman
 convertlit
 cool-retro-term
 coreutils
@@ -190,14 +188,17 @@ dunst
 dunstify
 e2fsprogs
 ebook-tools
+econnman
 ecryptfs-utils
 editorconfig-core-c
 efibootmgr
 efivar
+efl
 elementary-feedback
 elementary-wallpapers-git
 elisa
 enchant
+enlightenment
 etcher-bin
 evopop-gtk-theme
 exfat-utils
@@ -335,6 +336,7 @@ gtk-doc
 gtk-engine-murrine
 gtk-engines
 gtk-theme-breath
+gtk-theme-e17gtk
 gtk-update-icon-cache
 gtk-vnc
 gtk2
@@ -736,6 +738,7 @@ libmodplug
 libmp4v2
 libmpc
 libmpcdec
+libmpd
 libmpdclient
 libmpeg2
 libmspub
@@ -884,6 +887,7 @@ libxklavier
 libxml2
 libxmu
 libxnvctrl
+libxp
 libxpm
 libxpresent
 libxrandr
@@ -905,11 +909,6 @@ libzmf
 licenses
 linux-api-headers
 linux-firmware
-linux419
-linux419-headers
-linux54
-linux54-headers
-linux54-virtualbox-host-modules
 lirc
 llvm-libs
 lm_sensors
@@ -923,8 +922,8 @@ lsb-release
 lsd
 lshw
 lsof
+ltris
 lua
-lua-lgi
 lua51
 lua52
 lua52-bitop
@@ -1089,6 +1088,7 @@ openconnect
 opencore-amr
 opencv
 openexr
+openjpeg
 openjpeg2
 openresolv
 openssh
@@ -1184,6 +1184,7 @@ plasma5-themes-breath
 playerctl
 podofo
 polkit
+polkit-efl-git
 polkit-gnome
 polkit-kde-agent
 polkit-qt5
@@ -1242,6 +1243,7 @@ python-dbus-common
 python-distlib
 python-distro
 python-docopt
+python-efl
 python-entrypoints
 python-feedparser
 python-gobject
@@ -1263,6 +1265,7 @@ python-markupsafe
 python-more-itertools
 python-mpd2
 python-msgpack
+python-mutagen
 python-npyscreen
 python-ordered-set
 python-packaging
@@ -1468,6 +1471,7 @@ sddm-breath-theme
 sddm-kcm
 sdl
 sdl2
+sdl_mixer
 sed
 semver
 serf
@@ -1490,6 +1494,7 @@ slim-themes
 slurm
 smartmontools
 smbclient
+smpeg
 snapd
 snapd-glib
 snappy
@@ -1538,10 +1543,12 @@ tar
 tcl
 tdb
 terminator
+terminology
 terminus-font
 termite-ranger-fix-git
 termite-ranger-fix-terminfo-git
 termsyn-font
+tetris-terminal-git
 tevent
 texinfo
 texmaker
@@ -1556,6 +1563,7 @@ thunar-volman
 thunar-volman-gtk3
 thunderbird
 tint2
+tintwizard
 tinyxml
 tlp
 tmux
@@ -1666,6 +1674,7 @@ xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
+xclip
 xcursor-breeze
 xdg-dbus-proxy
 xdg-desktop-portal

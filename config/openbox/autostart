@@ -46,7 +46,7 @@ albert &
 
 ### Localize user system folders
 xdg-user-dirs-gtk-update &
-
+udiskie -qN &
 ### enable numlock
 ### uncomment next line
 #numlockx &
