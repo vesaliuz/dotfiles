@@ -82,7 +82,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export XDG_CONFIG_HOME="$HOME/.config"
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH="$HOME/bin:$HOME/bin/go/bin:$PATH"
+export PATH="$HOME/bin:$HOME/bin/go/bin:/home/vesaliuz/.local/bin:$PATH"
 #export QT_QPA_PLATFORMTHEME="qt5ct"
 
 # You may need to manually set your language environment

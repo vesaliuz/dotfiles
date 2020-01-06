@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 24
+current: 20
 random: 0
 repeat: 0
 single: 0
@@ -11,29 +11,34 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:iTunes/Stardust/Music Sounds Better With You/01 Music Sounds Better with You (Radio Edit).m4a
-1:iTunes/Van Halen/The best of Van Halen I/01 Eruption.m4a
-2:iTunes/EPICA/The Classical Conspiracy/2-03 Cry for the Moon.m4a
-3:iTunes/Led Zeppelin/Led Zeppelin II (Remastered)/08 Moby Dick.m4a
-4:iTunes/Daft Punk/TRON_ Legacy Reconfigured/07 The Son Of Flynn (Moby Remix).mp3
-5:Musica/Metallica – Essentials (2018) 320 KBPS/02. One.m4a
-6:Musica/Metallica – Essentials (2018) 320 KBPS/04. For Whom The Bell Tolls (Remastered).m4a
-7:Musica/Metallica – Essentials (2018) 320 KBPS/06. Fade To Black (Remastered).m4a
-8:Musica/Metallica – Essentials (2018) 320 KBPS/08. Sad But True.m4a
-9:Musica/Metallica – Essentials (2018) 320 KBPS/10. Harvester Of Sorrow.m4a
-10:Musica/Metallica – Essentials (2018) 320 KBPS/13. Wherever I May Roam.m4a
-11:Musica/Metallica – Essentials (2018) 320 KBPS/15. Ride The Lightning (Remastered).m4a
-12:Musica/Metallica – Essentials (2018) 320 KBPS/16. The Four Horsemen (Remastered).m4a
-13:Musica/Metallica – Essentials (2018) 320 KBPS/17. ...And Justice For All.m4a
-14:Musica/Metallica – Essentials (2018) 320 KBPS/19. Creeping Death (Remastered).m4a
-15:Musica/Metallica – Essentials (2018) 320 KBPS/20. Blackened.m4a
-16:Musica/Metallica – Essentials (2018) 320 KBPS/21. Moth Into Flame.m4a
-17:Musica/Metallica – Essentials (2018) 320 KBPS/23. Until It Sleeps.m4a
-18:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/05 Angel of Death.mp3
-19:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/20 Raining Blood.mp3
-20:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/320 Mandatory Suicide.mp3
-21:iTunes/Slayer/Soundtrack to the Apocalypse - Disc 2 of 5/12 Disciple.m4a
-22:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/311 I'm Broken.mp3
-23:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Tim/42 Cowboys From Hell.mp3
-24:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/48 Walk.mp3
+0:Chica de Humo - Emmanuel (Video Oficial)-SCE39bYioDU.m4a
+1:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/01. Blackened.mp3
+2:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/02. ...And Justice for All.mp3
+3:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/03. Eye of the Beholder.mp3
+4:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/04. One.mp3
+5:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/05. The Shortest Straw.mp3
+6:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/06. Harvester of Sorrow.mp3
+7:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/07. The Frayed Ends of Sanity.mp3
+8:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/08. To Live Is to Die.mp3
+9:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/09. Dyers Eve.mp3
+10:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/01. Blackened (November 1987 Demo).mp3
+11:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/02. ...And Justice for All (November 1987, Writing in Progress).mp3
+12:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/03. Eye of the Beholder (November 1987, Writing in Progress).mp3
+13:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/04. One (Work in Progress Rough Mix).mp3
+14:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/05. The Shortest Straw (December 1987, Writing in Progress).mp3
+15:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/06. Harvester of Sorrow (Work in Progress Rough Mix).mp3
+16:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/07. The Frayed Ends of Sanity (November 1987 Demo).mp3
+17:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/08. To Live Is to Die (Work in Progress Rough Mix).mp3
+18:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/09. Dyers Eve (January 1988 Demo).mp3
+19:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/01. Blackened (Live - Seattle '89).mp3
+20:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/03. Welcome Home (Sanitarium) (Live at Hammersmith Odeon, London, England – October 10th, 1988).mp3
+21:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/04. Leper Messiah (Live at Long Beach Arena, Long Beach, CA - December 7th, 1988).mp3
+22:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/05. Harvester of Sorrow (Live at Hammersmith Odeon, London, England – October 10th, 1988).mp3
+23:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/06. Eye of the Beholder (Live at Hammersmith Odeon, London, England – October 10th, 1988).mp3
+24:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/07. Seek & Destroy (Live at The Troubadour, West Hollywood, CA - May 24th, 1988).mp3
+25:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/08. Creeping Death (Live at Reunion Arena, Dallas, TX - February 5th, 1989).mp3
+26:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/09. One (Live - Seattle '89).mp3
+27:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/10. …And Justice for All (Live at Long Beach Arena, Long Beach, CA – December 7th, 1988).mp3
+28:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/11. Whiplash (Live at The Troubadour, West Hollywood, CA - May 24th, 1988).mp3
+29:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/12. Breadfan (Live at Seattle Coliseum, Seattle, WA - August 30th, 1989).mp3
 playlist_end
