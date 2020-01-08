@@ -30,8 +30,8 @@ require('module.exit-screen')
 require('module.titlebar')
 require('module.menu')
 require('module.volume-osd')
-require('module.brightness-osd')
-require('module.wallchange')
+--require('module.brightness-osd')
+--require('module.wallchange')
 
 -- Setup all configurations
 require('configuration.client')

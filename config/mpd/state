@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 20
+current: 47
 random: 0
 repeat: 0
 single: 0
@@ -41,4 +41,27 @@ playlist_begin
 27:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/10. …And Justice for All (Live at Long Beach Arena, Long Beach, CA – December 7th, 1988).mp3
 28:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/11. Whiplash (Live at The Troubadour, West Hollywood, CA - May 24th, 1988).mp3
 29:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/12. Breadfan (Live at Seattle Coliseum, Seattle, WA - August 30th, 1989).mp3
+30:iTunes/Metallica/Metallica - Essentials/01 Enter Sandman.m4a
+31:iTunes/Metallica/Metallica - Essentials/02 One.m4a
+32:iTunes/Metallica/Metallica - Essentials/03 Nothing Else Matters.m4a
+33:iTunes/Metallica/Metallica - Essentials/05 The Unforgiven.m4a
+34:iTunes/Metallica/Metallica - Essentials/06 Fade To Black (Remastered).m4a
+35:iTunes/Metallica/Metallica - Essentials/07 Welcome Home (Sanitarium).m4a
+36:iTunes/Metallica/Metallica - Essentials/08 Sad But True.m4a
+37:iTunes/Metallica/Metallica - Essentials/09 Seek & Destroy (Remastered).m4a
+38:iTunes/Metallica/Metallica - Essentials/10 Harvester Of Sorrow.m4a
+39:iTunes/Metallica/Metallica - Essentials/11 Hardwired.m4a
+40:iTunes/Metallica/Metallica - Essentials/12 Fuel.m4a
+41:iTunes/Metallica/Metallica - Essentials/13 Wherever I May Roam.m4a
+42:iTunes/Metallica/Metallica - Essentials/14 Battery.m4a
+43:iTunes/Metallica/Metallica - Essentials/15 Ride The Lightning (Remastered).m4a
+44:iTunes/Metallica/Metallica - Essentials/16 The Four Horsemen (Remastered).m4a
+45:iTunes/Metallica/Metallica - Essentials/17 ...And Justice For All.m4a
+46:iTunes/Metallica/Metallica - Essentials/18 King Nothing.m4a
+47:iTunes/Metallica/Metallica - Essentials/19 Creeping Death (Remastered).m4a
+48:iTunes/Metallica/Metallica - Essentials/20 Blackened.m4a
+49:iTunes/Metallica/Metallica - Essentials/21 Moth Into Flame.m4a
+50:iTunes/Metallica/Metallica - Essentials/22 I Disappear.m4a
+51:iTunes/Metallica/Metallica - Essentials/23 Until It Sleeps.m4a
+52:iTunes/Metallica/Metallica - Essentials/24 Whiskey In The Jar.m4a
 playlist_end
