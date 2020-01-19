@@ -2,66 +2,56 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 47
+current: 19
 random: 0
-repeat: 0
+repeat: 1
 single: 0
-consume: 1
+consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Chica de Humo - Emmanuel (Video Oficial)-SCE39bYioDU.m4a
-1:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/01. Blackened.mp3
-2:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/02. ...And Justice for All.mp3
-3:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/03. Eye of the Beholder.mp3
-4:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/04. One.mp3
-5:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/05. The Shortest Straw.mp3
-6:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/06. Harvester of Sorrow.mp3
-7:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/07. The Frayed Ends of Sanity.mp3
-8:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/08. To Live Is to Die.mp3
-9:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 1/09. Dyers Eve.mp3
-10:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/01. Blackened (November 1987 Demo).mp3
-11:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/02. ...And Justice for All (November 1987, Writing in Progress).mp3
-12:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/03. Eye of the Beholder (November 1987, Writing in Progress).mp3
-13:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/04. One (Work in Progress Rough Mix).mp3
-14:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/05. The Shortest Straw (December 1987, Writing in Progress).mp3
-15:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/06. Harvester of Sorrow (Work in Progress Rough Mix).mp3
-16:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/07. The Frayed Ends of Sanity (November 1987 Demo).mp3
-17:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/08. To Live Is to Die (Work in Progress Rough Mix).mp3
-18:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 2/09. Dyers Eve (January 1988 Demo).mp3
-19:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/01. Blackened (Live - Seattle '89).mp3
-20:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/03. Welcome Home (Sanitarium) (Live at Hammersmith Odeon, London, England – October 10th, 1988).mp3
-21:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/04. Leper Messiah (Live at Long Beach Arena, Long Beach, CA - December 7th, 1988).mp3
-22:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/05. Harvester of Sorrow (Live at Hammersmith Odeon, London, England – October 10th, 1988).mp3
-23:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/06. Eye of the Beholder (Live at Hammersmith Odeon, London, England – October 10th, 1988).mp3
-24:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/07. Seek & Destroy (Live at The Troubadour, West Hollywood, CA - May 24th, 1988).mp3
-25:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/08. Creeping Death (Live at Reunion Arena, Dallas, TX - February 5th, 1989).mp3
-26:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/09. One (Live - Seattle '89).mp3
-27:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/10. …And Justice for All (Live at Long Beach Arena, Long Beach, CA – December 7th, 1988).mp3
-28:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/11. Whiplash (Live at The Troubadour, West Hollywood, CA - May 24th, 1988).mp3
-29:Musica/Metallica - ...And Justice for All (Remastered 2018) (3CD Expanded Edition)/CD 3/12. Breadfan (Live at Seattle Coliseum, Seattle, WA - August 30th, 1989).mp3
-30:iTunes/Metallica/Metallica - Essentials/01 Enter Sandman.m4a
-31:iTunes/Metallica/Metallica - Essentials/02 One.m4a
-32:iTunes/Metallica/Metallica - Essentials/03 Nothing Else Matters.m4a
-33:iTunes/Metallica/Metallica - Essentials/05 The Unforgiven.m4a
-34:iTunes/Metallica/Metallica - Essentials/06 Fade To Black (Remastered).m4a
-35:iTunes/Metallica/Metallica - Essentials/07 Welcome Home (Sanitarium).m4a
-36:iTunes/Metallica/Metallica - Essentials/08 Sad But True.m4a
-37:iTunes/Metallica/Metallica - Essentials/09 Seek & Destroy (Remastered).m4a
-38:iTunes/Metallica/Metallica - Essentials/10 Harvester Of Sorrow.m4a
-39:iTunes/Metallica/Metallica - Essentials/11 Hardwired.m4a
-40:iTunes/Metallica/Metallica - Essentials/12 Fuel.m4a
-41:iTunes/Metallica/Metallica - Essentials/13 Wherever I May Roam.m4a
-42:iTunes/Metallica/Metallica - Essentials/14 Battery.m4a
-43:iTunes/Metallica/Metallica - Essentials/15 Ride The Lightning (Remastered).m4a
-44:iTunes/Metallica/Metallica - Essentials/16 The Four Horsemen (Remastered).m4a
-45:iTunes/Metallica/Metallica - Essentials/17 ...And Justice For All.m4a
-46:iTunes/Metallica/Metallica - Essentials/18 King Nothing.m4a
-47:iTunes/Metallica/Metallica - Essentials/19 Creeping Death (Remastered).m4a
-48:iTunes/Metallica/Metallica - Essentials/20 Blackened.m4a
-49:iTunes/Metallica/Metallica - Essentials/21 Moth Into Flame.m4a
-50:iTunes/Metallica/Metallica - Essentials/22 I Disappear.m4a
-51:iTunes/Metallica/Metallica - Essentials/23 Until It Sleeps.m4a
-52:iTunes/Metallica/Metallica - Essentials/24 Whiskey In The Jar.m4a
+0:iTunes/Iron Maiden/En Vivo!/1-01 Satellite 15.mp3
+1:iTunes/Iron Maiden/En Vivo!/1-02 The Final Frontier.mp3
+2:iTunes/Iron Maiden/En Vivo!/1-03 El Dorado.mp3
+3:iTunes/Iron Maiden/En Vivo!/1-04 2 Minutes To Midnight.mp3
+4:iTunes/Iron Maiden/En Vivo!/1-05 The Talisman.mp3
+5:iTunes/Iron Maiden/En Vivo!/1-06 Coming Home.mp3
+6:iTunes/Iron Maiden/En Vivo!/1-07 Dance Of Death.mp3
+7:iTunes/Iron Maiden/En Vivo!/1-08 The Trooper.mp3
+8:iTunes/Iron Maiden/En Vivo!/1-09 The Wicker Man.mp3
+9:iTunes/Iron Maiden/En Vivo!/2-01 Blood Brothers.mp3
+10:iTunes/Iron Maiden/En Vivo!/2-02 When The Wild Wind Blows.mp3
+11:iTunes/Iron Maiden/En Vivo!/2-03 The Evil That Men Do.mp3
+12:iTunes/Iron Maiden/En Vivo!/2-04 Fear Of The Dark.mp3
+13:iTunes/Iron Maiden/En Vivo!/2-05 Iron Maiden.mp3
+14:iTunes/Iron Maiden/En Vivo!/2-06 The Number Of The Beast.mp3
+15:iTunes/Iron Maiden/En Vivo!/2-07 Hallowed Be Thy Name.mp3
+16:iTunes/Iron Maiden/En Vivo!/2-08 Running Free.mp3
+17:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/12 Painkiller.mp3
+18:iTunes/Marillion/The Best of Both Worlds Disc/1-08 Kayleigh [Single Version].mp3
+19:iTunes/Pantera/Cowboys From Hell/01 Cowboys From Hell.m4a
+20:iTunes/Pantera/Cowboys From Hell/02 Primal Concrete Sledge.m4a
+21:iTunes/Pantera/Cowboys From Hell/03 Pyscho Holiday.m4a
+22:iTunes/Pantera/Cowboys From Hell/04 Heresy.m4a
+23:iTunes/Pantera/Cowboys From Hell/05 Cemetery Gates.m4a
+24:iTunes/Pantera/Cowboys From Hell/06 Domination.m4a
+25:iTunes/Pantera/Cowboys From Hell/07 Shattered.m4a
+26:iTunes/Pantera/Cowboys From Hell/08 Clash With Reality.m4a
+27:iTunes/Pantera/Cowboys From Hell/09 Medicine Man.m4a
+28:iTunes/Pantera/Cowboys From Hell/10 Message In Blood.m4a
+29:iTunes/Pantera/Cowboys From Hell/11 The Sleep.m4a
+30:iTunes/Pantera/Cowboys From Hell/12 The Art Of Shredding.m4a
+31:iTunes/Pantera/Vulgar Of Power/01 Mouth For War.m4a
+32:iTunes/Pantera/Vulgar Of Power/02 A New Level.m4a
+33:iTunes/Pantera/Vulgar Of Power/03 Walk.m4a
+34:iTunes/Pantera/Vulgar Of Power/04 Fucking Hostile.m4a
+35:iTunes/Pantera/Vulgar Of Power/05 This Love.m4a
+36:iTunes/Pantera/Vulgar Of Power/06 Rise.m4a
+37:iTunes/Pantera/Vulgar Of Power/07 No Good (Attack The Radical).m4a
+38:iTunes/Pantera/Vulgar Of Power/08 Live In A Hole..m4a
+39:iTunes/Pantera/Vulgar Of Power/09  Regular People (Conceit).m4a
+40:iTunes/Pantera/Vulgar Of Power/10 By Demons Be Driven.m4a
+41:iTunes/Pantera/Vulgar Of Power/11 Hollow.m4a
+42:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/207 Territory.mp3
 playlist_end
