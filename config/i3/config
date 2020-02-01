@@ -465,7 +465,7 @@ exec --no-startup-id pkill flashfocus; sleep 1; flashfocus
 exec --no-startup-id albert
 exec --no-startup-id udiskie &
 exec --no-startup-id dunst &
-
+exec --no-startup-id mpd ; sleep 2; mpDris2 &
 #############################
 ### settings for i3-gaps: ###
 #############################
