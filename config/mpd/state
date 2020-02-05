@@ -1,8 +1,9 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: stop
-current: 30
+state: play
+current: 21
+time: 4.211000
 random: 1
 repeat: 1
 single: 0
@@ -44,4 +45,50 @@ playlist_begin
 30:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/61 Mr. Roboto (Techno Remix).m4a
 31:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/85 Addicted To Love.m4a
 32:iTunes/Die Antwoord/Ten$Ion/02 I Fink U Freeky.m4a
+33:Musica/Me Verás Volver/02 Trátame Suavemente.mp3
+34:Musica/Me Verás Volver/02 Trátame Suavemente.mp3
+35:Musica/Me Verás Volver/01 Sobredosis de TV.mp3
+36:iTunes/Soda Stereo/Me Verás Volver/01 Sobredosis de TV.mp3
+37:Musica/Me Verás Volver/02 Trátame Suavemente.mp3
+38:iTunes/Soda Stereo/Me Verás Volver/02 Trátame Suavemente.mp3
+39:Musica/Me Verás Volver/03 Juegos de Seducción.mp3
+40:iTunes/Soda Stereo/Me Verás Volver/03 Juegos de Seducción.mp3
+41:Musica/Me Verás Volver/04 Cuando Pase el Temblor.mp3
+42:iTunes/Soda Stereo/Me Verás Volver/04 Cuando Pase el Temblor.mp3
+43:Musica/Me Verás Volver/05 Nada Personal.mp3
+44:iTunes/Soda Stereo/Me Verás Volver/05 Nada Personal.mp3
+45:Musica/Me Verás Volver/06 Signos.mp3
+46:iTunes/Soda Stereo/Me Verás Volver/06 Signos.mp3
+47:Musica/Me Verás Volver/07 Persiana Americana.mp3
+48:iTunes/Soda Stereo/Me Verás Volver/07 Persiana Americana.mp3
+49:Musica/Me Verás Volver/08 Prófugos.mp3
+50:iTunes/Soda Stereo/Me Verás Volver/08 Prófugos.mp3
+51:Musica/Me Verás Volver/09 Picnic en el 4° B.mp3
+52:iTunes/Soda Stereo/Me Verás Volver/09 Picnic en el 4° B.mp3
+53:Musica/Me Verás Volver/10 Corazón Delator.mp3
+54:iTunes/Soda Stereo/Me Verás Volver/10 Corazón Delator.mp3
+55:Musica/Me Verás Volver/11 En La Ciudad de La Furia.mp3
+56:iTunes/Soda Stereo/Me Verás Volver/11 En La Ciudad de La Furia.mp3
+57:Musica/Me Verás Volver/12 De Música Ligera.mp3
+58:iTunes/Soda Stereo/Me Verás Volver/12 De Música Ligera.mp3
+59:Musica/Me Verás Volver/13 Un Millón de Años Luz.mp3
+60:iTunes/Soda Stereo/Me Verás Volver/13 Un Millón de Años Luz.mp3
+61:Musica/Me Verás Volver/14 En Remolinos.mp3
+62:iTunes/Soda Stereo/Me Verás Volver/14 En Remolinos.mp3
+63:Musica/Me Verás Volver/15 Primavera 0.mp3
+64:iTunes/Soda Stereo/Me Verás Volver/15 Primavera 0.mp3
+65:Musica/Me Verás Volver/16 Zona de Promesas.mp3
+66:iTunes/Soda Stereo/Me Verás Volver/16 Zona de Promesas.mp3
+67:Musica/Me Verás Volver/17 Ella Usó Mi Cabeza Como un Revólver.mp3
+68:iTunes/Soda Stereo/Me Verás Volver/17 Ella Usó Mi Cabeza Como un Revólver.mp3
+69:Musica/Me Verás Volver/18 Zoom.mp3
+70:iTunes/Soda Stereo/Me Verás Volver/18 Zoom.mp3
+71:Cautious Hero OP_Opening「FULL」- MYTH & ROID「TIT FOR TAT」(慎重勇者)-rqJg9Syyjq0.aac
+72:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/21 Creeping Death.mp3
+73:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/64 The Four Horsemen.mp3
+74:iTunes/Metallica/Death Magnetic/06 Cyanide.m4a
+75:iTunes/Metallica/Garage Inc/2-10 Stone Cold Crazy.m4a
+76:iTunes/Metallica/Hardwired…To Self-Destruct (Limited Deluxe Edition)/3-07 The Four Horsemen (Live At Rasputin Music).mp3
+77:iTunes/Metallica/Hardwired…To Self-Destruct (Limited Deluxe Edition)/3-08 Ride The Lightning (Live At Rasputin Music).mp3
+78:iTunes/Metallica/Metallica - Essentials/17 ...And Justice For All.m4a
 playlist_end
