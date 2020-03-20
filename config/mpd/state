@@ -1,9 +1,8 @@
-sw_volume: 100
+sw_volume: 96
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: play
-current: 21
-time: 4.211000
+state: stop
+current: 86
 random: 1
 repeat: 1
 single: 0
@@ -12,83 +11,94 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:iTunes/Compilations/Daft Punk Essentials/01 Get Lucky.mp3
-1:iTunes/Compilations/One Punch Man OP & ED/1-01 ﻿The Hero!! ~Ikareru Ken ni Honō o Tsukero~.mp3
-2:iTunes/Compilations/The Collection - Rock Classics - The Ultimate Rock Anthems/4-09 I'm Broken.mp3
-3:iTunes/Compilations/Daft Punk Essentials/02 One More Time.mp3
-4:iTunes/Compilations/Daft Punk Essentials/03 Around The World.mp3
-5:iTunes/Compilations/Daft Punk Essentials/04 Harder Better Faster Stronger.mp3
-6:iTunes/Compilations/Daft Punk Essentials/05 Da Funk.mp3
-7:iTunes/Compilations/Daft Punk Essentials/06 Starboy.mp3
-8:iTunes/Compilations/Daft Punk Essentials/07 Instant Crush.mp3
-9:iTunes/Compilations/Daft Punk Essentials/08 Technologic.mp3
-10:iTunes/Compilations/Daft Punk Essentials/09 Robot Rock.mp3
-11:iTunes/Compilations/Daft Punk Essentials/10 Lose Yourself to Dance.mp3
-12:iTunes/Compilations/Daft Punk Essentials/11 Digital Love.mp3
-13:iTunes/Compilations/Daft Punk Essentials/12 Revolution 909.mp3
-14:iTunes/Compilations/Daft Punk Essentials/13 Give Life Back to Music.mp3
-15:iTunes/Compilations/Daft Punk Essentials/14 Something About Us.mp3
-16:iTunes/Compilations/Daft Punk Essentials/15 Doin' it Right.mp3
-17:iTunes/Compilations/Rock Legends - The Ultimate Collection/3-08 Just Like Heaven.m4a
-18:iTunes/Compilations/Rock Legends - The Ultimate Collection/3-09 More Than This.m4a
-19:iTunes/Compilations/The Collection - Rock Classics - The Ultimate Rock Anthems/3-20 Roundabout.mp3
-20:iTunes/Compilations/Ultimate Movies/1-06 Eye Of The Tiger.m4a
-21:iTunes/Compilations/Utamonogatari/1-03 Ambivalent World.mp3
-22:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/01 Living on a Prayer.mp3
-23:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/07 Sweet child of Mine.m4a
-24:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/26 Welcome To The Jungle.m4a
-25:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/30 Love Is A Battlefield.m4a
-26:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/34 Every Rose Has Its Thorn.mp3
-27:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/42 London's Calling.m4a
-28:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/49 Fight for Your Right to Party.m4a
-29:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/55 I Ran (So Far Away).m4a
-30:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/61 Mr. Roboto (Techno Remix).m4a
-31:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/85 Addicted To Love.m4a
-32:iTunes/Die Antwoord/Ten$Ion/02 I Fink U Freeky.m4a
-33:Musica/Me Verás Volver/02 Trátame Suavemente.mp3
-34:Musica/Me Verás Volver/02 Trátame Suavemente.mp3
-35:Musica/Me Verás Volver/01 Sobredosis de TV.mp3
-36:iTunes/Soda Stereo/Me Verás Volver/01 Sobredosis de TV.mp3
-37:Musica/Me Verás Volver/02 Trátame Suavemente.mp3
-38:iTunes/Soda Stereo/Me Verás Volver/02 Trátame Suavemente.mp3
-39:Musica/Me Verás Volver/03 Juegos de Seducción.mp3
-40:iTunes/Soda Stereo/Me Verás Volver/03 Juegos de Seducción.mp3
-41:Musica/Me Verás Volver/04 Cuando Pase el Temblor.mp3
-42:iTunes/Soda Stereo/Me Verás Volver/04 Cuando Pase el Temblor.mp3
-43:Musica/Me Verás Volver/05 Nada Personal.mp3
-44:iTunes/Soda Stereo/Me Verás Volver/05 Nada Personal.mp3
-45:Musica/Me Verás Volver/06 Signos.mp3
-46:iTunes/Soda Stereo/Me Verás Volver/06 Signos.mp3
-47:Musica/Me Verás Volver/07 Persiana Americana.mp3
-48:iTunes/Soda Stereo/Me Verás Volver/07 Persiana Americana.mp3
-49:Musica/Me Verás Volver/08 Prófugos.mp3
-50:iTunes/Soda Stereo/Me Verás Volver/08 Prófugos.mp3
-51:Musica/Me Verás Volver/09 Picnic en el 4° B.mp3
-52:iTunes/Soda Stereo/Me Verás Volver/09 Picnic en el 4° B.mp3
-53:Musica/Me Verás Volver/10 Corazón Delator.mp3
-54:iTunes/Soda Stereo/Me Verás Volver/10 Corazón Delator.mp3
-55:Musica/Me Verás Volver/11 En La Ciudad de La Furia.mp3
-56:iTunes/Soda Stereo/Me Verás Volver/11 En La Ciudad de La Furia.mp3
-57:Musica/Me Verás Volver/12 De Música Ligera.mp3
-58:iTunes/Soda Stereo/Me Verás Volver/12 De Música Ligera.mp3
-59:Musica/Me Verás Volver/13 Un Millón de Años Luz.mp3
-60:iTunes/Soda Stereo/Me Verás Volver/13 Un Millón de Años Luz.mp3
-61:Musica/Me Verás Volver/14 En Remolinos.mp3
-62:iTunes/Soda Stereo/Me Verás Volver/14 En Remolinos.mp3
-63:Musica/Me Verás Volver/15 Primavera 0.mp3
-64:iTunes/Soda Stereo/Me Verás Volver/15 Primavera 0.mp3
-65:Musica/Me Verás Volver/16 Zona de Promesas.mp3
-66:iTunes/Soda Stereo/Me Verás Volver/16 Zona de Promesas.mp3
-67:Musica/Me Verás Volver/17 Ella Usó Mi Cabeza Como un Revólver.mp3
-68:iTunes/Soda Stereo/Me Verás Volver/17 Ella Usó Mi Cabeza Como un Revólver.mp3
-69:Musica/Me Verás Volver/18 Zoom.mp3
-70:iTunes/Soda Stereo/Me Verás Volver/18 Zoom.mp3
-71:Cautious Hero OP_Opening「FULL」- MYTH & ROID「TIT FOR TAT」(慎重勇者)-rqJg9Syyjq0.aac
-72:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/21 Creeping Death.mp3
-73:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/64 The Four Horsemen.mp3
-74:iTunes/Metallica/Death Magnetic/06 Cyanide.m4a
-75:iTunes/Metallica/Garage Inc/2-10 Stone Cold Crazy.m4a
-76:iTunes/Metallica/Hardwired…To Self-Destruct (Limited Deluxe Edition)/3-07 The Four Horsemen (Live At Rasputin Music).mp3
-77:iTunes/Metallica/Hardwired…To Self-Destruct (Limited Deluxe Edition)/3-08 Ride The Lightning (Live At Rasputin Music).mp3
-78:iTunes/Metallica/Metallica - Essentials/17 ...And Justice For All.m4a
+0:iTunes/Wax Audio/Mashopolos/01 Whole Lotta Sabbath.m4a
+1:iTunes/Wax Audio/Mashopolos/02 Thunder Busters.m4a
+2:iTunes/Wax Audio/Mashopolos/03 Stayin Alive In The Wall.m4a
+3:iTunes/Wax Audio/Mashopolos/04 Hallowed Be Thy Enemy.m4a
+4:iTunes/Wax Audio/Mashopolos/05 Full Metal Jackson.m4a
+5:iTunes/Wax Audio/Mashopolos/06 Back In Blackened.m4a
+6:iTunes/Wax Audio/Mashopolos/07 Mashing Up That Hill.m4a
+7:iTunes/Wax Audio/Mashopolos/08 Maiden Goes To Bollywood.m4a
+8:iTunes/Wax Audio/Mashopolos/09 Metallica Goes To Punjab.m4a
+9:iTunes/Wax Audio/Mashopolos/10 Disolved By The Water All These Years (Cover Me).m4a
+10:iTunes/Wax Audio/Mashopolos/11 Maiden Goes To Hollywood.m4a
+11:iTunes/Wax Audio/Mashopolos II - The Mashening/01 Come Together 2008.mp3
+12:iTunes/Wax Audio/Mashopolos II - The Mashening/02 Sad But Superstitious.mp3
+13:iTunes/Wax Audio/Mashopolos II - The Mashening/03 Born In A Bad Place.mp3
+14:iTunes/Wax Audio/Mashopolos II - The Mashening/04 Enter You.mp3
+15:iTunes/Wax Audio/Mashopolos II - The Mashening/05 I Hear It Now.mp3
+16:iTunes/Wax Audio/Mashopolos II - The Mashening/06 Blue Rigby.mp3
+17:iTunes/Wax Audio/Mashopolos II - The Mashening/07 Tori's Deranged.mp3
+18:iTunes/Wax Audio/Mashopolos II - The Mashening/08 The Pink Jack.mp3
+19:iTunes/Wax Audio/Mashopolos II - The Mashening/09 Metallica Goes To Istanbul.mp3
+20:iTunes/Wax Audio/Mashopolos II - The Mashening/10 And Krishna For All.mp3
+21:iTunes/Wax Audio/Mashopolos II - The Mashening/11 And I Love Her (Batak Mix).mp3
+22:iTunes/Wax Audio/Mashopolos II - The Mashening/12 The Devil's Highway.mp3
+23:iTunes/Wax Audio/Mashopolos II - The Mashening/13 TrickBattery.mp3
+24:iTunes/Wax Audio/Mashopolos II - The Mashening/14 This Ain't My Girl.mp3
+25:iTunes/Wax Audio/Mashopolos III - Mashups For The People/01 The People.mp3
+26:iTunes/Wax Audio/Mashopolos III - Mashups For The People/02 The Final Teen Spirit.mp3
+27:iTunes/Wax Audio/Mashopolos III - Mashups For The People/03 Lady Judas.mp3
+28:iTunes/Wax Audio/Mashopolos III - Mashups For The People/04 Master Of Doin' It.mp3
+29:iTunes/Wax Audio/Mashopolos III - Mashups For The People/05 Golden Teardrops.mp3
+30:iTunes/Wax Audio/Mashopolos III - Mashups For The People/06 Blue Jump.mp3
+31:iTunes/Wax Audio/Mashopolos III - Mashups For The People/07 The Sun Always Shines At Midnight.mp3
+32:iTunes/Wax Audio/Mashopolos III - Mashups For The People/08 I Want Precious Things.mp3
+33:iTunes/Wax Audio/Mashopolos III - Mashups For The People/09 Chemical Diver.mp3
+34:iTunes/Wax Audio/Mashopolos III - Mashups For The People/10 South Of The Grapevine.mp3
+35:iTunes/Wax Audio/Mashopolos III - Mashups For The People/11 Panama Beat.mp3
+36:iTunes/Wax Audio/Mashopolos III - Mashups For The People/12 Careless Rebel.mp3
+37:iTunes/Wax Audio/Mashopolos III - Mashups For The People/13 The Seas Have No Name.mp3
+38:iTunes/Wax Audio/Mashphonic/01 Crystal Maiden.mp3
+39:iTunes/Wax Audio/Mashphonic/02 Sleeping Bad.mp3
+40:iTunes/Wax Audio/Mashphonic/03 A Hard Girls Night.mp3
+41:iTunes/Wax Audio/Mashphonic/04 Breathe and Destroy.mp3
+42:iTunes/Wax Audio/Mashphonic/05 Stayin in Black.mp3
+43:iTunes/Wax Audio/Mashphonic/06 Justify a Whole Lotta Love.mp3
+44:iTunes/Wax Audio/Mashphonic/07 Voodoo Creeps.mp3
+45:iTunes/Wax Audio/Mashphonic/08 If 6 Was Dub.mp3
+46:iTunes/Wax Audio/Mashphonic/09 Yesterdays Lullaby.mp3
+47:iTunes/Wax Audio/Mashphonic/10 A Hotel Full of Secrets.mp3
+48:Musica/Neuva cancion/La Internacional/03-Las ollitas.mp3
+49:Musica/Neuva cancion/La Internacional/01-La Internacional.mp3
+50:Musica/Neuva cancion/La Internacional/05-Mira la montaña.mp3
+51:Musica/Depeche Mode - The Singles '86-'98 (1998)/CD 1/08 Enjoy The Silence.mp3
+52:Musica/Depeche Mode - The Singles '86-'98 (1998)/CD 1/04 Strangelove.mp3
+53:Musica/Depeche Mode - The Singles 81-85 [MP3 @ 320] (oan)/03 - Depeche Mode - Just Can't Get Enough.mp3
+54:Musica/Emerson, Lake & Palmer - The Very Best Of Emerson, Lake & Palmer (2000)/12. Peter Gunn Theme (Live).m4a
+55:Musica/Emerson, Lake & Palmer - The Very Best Of Emerson, Lake & Palmer (2000)/10. Fanfare For The Common Man.m4a
+56:Musica/Faith No More - The Very Best Definitive Ultimate Greatest Hits Collection (2009) - Rock [www.torrentazos.com]/118-faith_no_more-easy.mp3
+57:Musica/Genesis - Selling England By The Pound/02. I Know What I Like (In Your Wardrobe).m4a
+58:Musica/Genki Sudo - World Order/04 - Boy Meets Girl.mp3
+59:Eric Johnson - Cliff of Dover.mp3
+60:Procol Harum - A Whiter Shade of Pale.mp3
+61:Musica/Franz_Liszt_-_100_Best_Liszt-6CD-2011-XXX/1-11 - 100 Best Liszt - Polonaise Brillante For Piano And Orchestra S367.m4a
+62:Musica/The Top 100 Masterpieces of Classical Music 1685-1928/Disc 6 - 1842-1853/605 - Liszt - Hungarian Rhapsody No. 2.flac
+63:iTunes/100 Classical Masterpieces/Disc 7 1854-1866/7-01 Orpheus in the Underworld - Overture.m4a
+64:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/12 Painkiller.mp3
+65:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/288 Grinder.mp3
+66:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/315 Metal Gods.mp3
+67:iTunes/Babymetal/Babymetal/01 Babymetal Death.mp3
+68:iTunes/Babymetal/Babymetal/03 Gimme Choko!!.mp3
+69:iTunes/Babymetal/Babymetal/02 Megitsune.mp3
+70:iTunes/Babymetal/METAL GALAXY/1-02 DA DA DANCE (feat. Tak Matsumoto).m4a
+71:iTunes/Babymetal/METAL GALAXY/1-03 Elevator Girl.m4a
+72:iTunes/Babymetal/METAL GALAXY/1-04 Shanti Shanti Shanti.m4a
+73:iTunes/Babymetal/METAL GALAXY/1-05 Oh! MAJINAI (feat. Joakim Broden).m4a
+74:iTunes/Babymetal/METAL GALAXY/2-02 Distortion (feat. Alissa White-Gluz).m4a
+75:iTunes/Babymetal/METAL GALAXY/2-03 PA PA YA!! (feat. F.HERO).m4a
+76:iTunes/Babymetal/METAL GALAXY/2-04 BxMxC.m4a
+77:iTunes/Babymetal/Metal Resistance/01 Road of Resistance.mp3
+78:iTunes/Babymetal/Metal Resistance/02 KARATE.mp3
+79:iTunes/Babymetal/Metal Resistance/03 Awadama Fever.mp3
+80:iTunes/Babymetal/Metal Resistance/04 YAVA!.mp3
+81:iTunes/Babymetal/Metal Resistance/05 Amore.mp3
+82:iTunes/Babymetal/Metal Resistance/06 Meta Taro.mp3
+83:iTunes/Babymetal/Metal Resistance/07 From Dusk Till Dawn.mp3
+84:iTunes/Babymetal/Metal Resistance/08 GJ!.mp3
+85:iTunes/Babymetal/Metal Resistance/09 Sis. Anger.mp3
+86:Barclay James Harvest - The Song (They Love To Sing).mp3
+87:Cautious Hero OP_Opening「FULL」- MYTH & ROID「TIT FOR TAT」(慎重勇者)-rqJg9Syyjq0.aac
+88:Charly García - Los dinosaurios-UILQU0VEWII.aac
+89:Chica de Humo - Emmanuel (Video Oficial)-SCE39bYioDU.m4a
 playlist_end

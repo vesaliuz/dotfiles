@@ -139,8 +139,8 @@ bindsym Mod1+b exec firefox-developer-edition
 #bindsym $mod+F3 exec nautilus
 bindsym $mod+F3 exec termite -e ranger
 bindsym $mod+Shift+F3 exec kdesu thunar
-bindsym $mod+t exec --no-startup-id pkill compton
-bindsym $mod+Ctrl+t exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
+bindsym $mod+t exec --no-startup-id pkill picom
+bindsym $mod+Ctrl+t exec --no-startup-id picom -b --config ~/.config/compton/compton.conf
 bindsym Ctrl+Shift+p --release exec --no-startup-id i3-scrot -w
 bindsym Mod1+Shift+p --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
@@ -337,7 +337,7 @@ for_window [class="elisa"] floating enable border normal
 for_window [class="Virt-manager"] floating enable border normal
 for_window [class="Lollypop"] floating enable border normal
 for_window [class="Rhythmbox"] floating enable border normal
-for_window [class="vlc"] floating enable border normal
+for_window [class="vlc"] floating enable border normal focus
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [title="terminator"] floating enable border pixel 1
 #for_window [class="calamares"] floating enable border normal
@@ -455,7 +455,7 @@ exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
 exec --no-startup-id sxhkd
 exec --no-startup-id sxhkd -c ~/.config/sxhkd/i3.sxhkdrc
 exec --no-startup-id variety ; sleep 1; wal $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)  
-exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
+exec --no-startup-id picom -b --config ~/.config/compton/compton.conf
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id blueman-applet
@@ -466,6 +466,7 @@ exec --no-startup-id albert
 exec --no-startup-id udiskie &
 exec --no-startup-id dunst &
 exec --no-startup-id mpd ; sleep 2; mpDris2 &
+exec --no-startup-id qbittorrent-nox &
 #############################
 ### settings for i3-gaps: ###
 #############################
