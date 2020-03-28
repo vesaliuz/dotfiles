@@ -1,8 +1,9 @@
 sw_volume: 96
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: stop
-current: 86
+state: play
+current: 64
+time: 3.870000
 random: 1
 repeat: 1
 single: 0
@@ -101,4 +102,29 @@ playlist_begin
 87:Cautious Hero OP_Opening「FULL」- MYTH & ROID「TIT FOR TAT」(慎重勇者)-rqJg9Syyjq0.aac
 88:Charly García - Los dinosaurios-UILQU0VEWII.aac
 89:Chica de Humo - Emmanuel (Video Oficial)-SCE39bYioDU.m4a
+90:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/251 Stone Cold Crazy.mp3
+91:Musica/Queen/Live Albums/2014 Live At the Rainbow (Deluxe Version)/CD2/2-18 Stone Cold Crazy (Live At the R.m4a
+92:iTunes/Metallica/New Skulls For The Old Ceremon/04 Stone Cold Crazy.mp3
+93:iTunes/Foo Fighters/Greatest Hits/1-06 Monkey Wrench.mp3
+94:iTunes/Compilations/The Collection - Rock Classics - The Ultimate Rock Anthems/1-12 Monkey Business.mp3
+95:iTunes/Peter Gabriel/Hit (The Definitive Collection)/1-02 Shock the monkey 1.m4a
+96:iTunes/Rush/Snakes & Arrows/06 The Main Monkey Business.m4a
+97:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0595. George Michael - Fait (1987)/8. Monkey.m4a
+98:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0655. Aerosmith - Pump (1989)/4. Monkey On My Back.m4a
+99:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0656. Pixies - Doolittle (1989)/7. Monkey Gone To Heaven.m4a
+100:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.IV)AAC.Lossy/0755. William Orbit - Strange Cargo III (1993)/10. The Monkey King.m4a
+101:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.IV)AAC.Lossy/0864. Turbonegro - Apocalypse Dudes (1998)/11. Monkey on your back.m4a
+102:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0322. Steely Dan - Pretzel Logic (1974)/11. Monkey In Your Soul.m4a
+103:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0453. The Specials - Specoals (1979)/08. Monkey Man.m4a
+104:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0462. Echo & The Bunnymen - Crocodiles (1980)/420. Monkeys.m4a
+105:Musica/Animetal/2005 - Marathon VII Tatakae! Metal Hero/26 - Monkey Magic .mp3
+106:Musica/Monogatari Series (2009-2016) [MP3]/01 - Bake/[2011.12.21] Bakemonogatari [Ongaku Zenshu Songs & Soundtracks]/CD 2/22 - Jikai Suruga Monkey.mp3
+107:Musica/THE CHEMICAL BROTHERS - DISCOGRAPHY (1995-15) [CHANNEL NEO]/[1997] Chemical Reaction/05 - St. Etienne - Filthy (Monkey Mafia Mix).mp3
+108:Musica/VA - Disney Sing Your Heart Out (3CD, 2018) Mp3 (320kbps) [Hunter]/CD2/04 - I Wan'na Be Like You (The Monkey Song).mp3
+109:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/27 Peace Sells.mp3
+110:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/113 Symphony of Destruction.mp3
+111:iTunes/Megadeth/Countdown To Extinction (Re-Mastered)/09 Psychotron.m4a
+112:iTunes/Megadeth/Hidden Treasures/06 Paranoid.m4a
+113:iTunes/Megadeth/Rude Awakening/09 Train Of Consequences.mp3
+114:iTunes/Megadeth/Rude Awakening/10 Holy Wars.m4a
 playlist_end
