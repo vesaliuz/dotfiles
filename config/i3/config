@@ -43,7 +43,7 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border pixel 3
+default_border pixel 2
 new_float normal
 # border_radius 10
 
@@ -125,7 +125,7 @@ bindsym $mod+Return exec termite
 # bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 #exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
-bindsym $mod+Ctrl+m exec pavucontrol
+#bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
 
@@ -135,15 +135,14 @@ bindsym $mod+Ctrl+m exec pavucontrol
 
 # Start Applications
 #bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym Mod1+b exec firefox-developer-edition
+#bindsym Mod1+b exec firefox-developer-edition
 #bindsym $mod+F3 exec nautilus
 bindsym $mod+F3 exec termite -e ranger
 bindsym $mod+Shift+F3 exec kdesu thunar
-bindsym $mod+t exec --no-startup-id pkill picom
-bindsym $mod+Ctrl+t exec --no-startup-id picom -b --config ~/.config/compton/compton.conf
+bindsym $mod+Ctrl+t exec --no-startup-id pkill compton
+bindsym $mod+Shift+t exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
 bindsym Ctrl+Shift+p --release exec --no-startup-id i3-scrot -w
 bindsym Mod1+Shift+p --release exec --no-startup-id i3-scrot -s
-bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
 # focus_follows_mouse no
@@ -277,7 +276,7 @@ set $ws3 3:
 set $ws4 4:
 set $ws5 5:
 set $ws6 6:
-set $ws7 7:7
+set $ws7 7:
 set $ws8 8:
 set $ws9 9:
 
@@ -317,9 +316,11 @@ set $ws9 9:
 # Open applications on specific workspaces
 assign [class="(?i)Firefox"] 2
 for_window [class="(?i)Firefox"] focus
+assign [class="(?i)Vivaldi"] 2
+for_window [class="(?i)Vivaldi"] focus
 assign [class="Terminator"] 1
-assign [class="elisa"] 3
-assign [class="Lollypop"] 3
+assign [class="audacious"] 3
+assign [class="cantata"] 3
 assign [class="Atom"] 6
 assign [class="Code"] 6
 assign [class="(?i)Gimp"] 7
@@ -448,14 +449,15 @@ for_window [urgent=latest] focus
 
 # Autostart applications
 
-exec --no-startup-id ~/.config/polybar/polybar-6/launch.sh
+exec --no-startup-id ~/.config/polybar/launch-i3.sh
 exec --no-startup-id alternating_layouts.py
 exec --no-startup-id xautolock -time 10 -locker "~/.config/autolock.sh
 exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
 exec --no-startup-id sxhkd
 exec --no-startup-id sxhkd -c ~/.config/sxhkd/i3.sxhkdrc
-exec --no-startup-id variety ; sleep 1; wal $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)  
-exec --no-startup-id picom -b --config ~/.config/compton/compton.conf
+# exec --no-startup-id variety ; sleep 1; wal $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)  
+exec --no-startup-id dwall -firewatch
+exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id blueman-applet

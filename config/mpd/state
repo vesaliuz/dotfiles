@@ -1,9 +1,8 @@
-sw_volume: 96
+sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: play
-current: 64
-time: 3.870000
+state: stop
+current: 132
 random: 1
 repeat: 1
 single: 0
@@ -12,119 +11,184 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:iTunes/Wax Audio/Mashopolos/01 Whole Lotta Sabbath.m4a
-1:iTunes/Wax Audio/Mashopolos/02 Thunder Busters.m4a
-2:iTunes/Wax Audio/Mashopolos/03 Stayin Alive In The Wall.m4a
-3:iTunes/Wax Audio/Mashopolos/04 Hallowed Be Thy Enemy.m4a
-4:iTunes/Wax Audio/Mashopolos/05 Full Metal Jackson.m4a
-5:iTunes/Wax Audio/Mashopolos/06 Back In Blackened.m4a
-6:iTunes/Wax Audio/Mashopolos/07 Mashing Up That Hill.m4a
-7:iTunes/Wax Audio/Mashopolos/08 Maiden Goes To Bollywood.m4a
-8:iTunes/Wax Audio/Mashopolos/09 Metallica Goes To Punjab.m4a
-9:iTunes/Wax Audio/Mashopolos/10 Disolved By The Water All These Years (Cover Me).m4a
-10:iTunes/Wax Audio/Mashopolos/11 Maiden Goes To Hollywood.m4a
-11:iTunes/Wax Audio/Mashopolos II - The Mashening/01 Come Together 2008.mp3
-12:iTunes/Wax Audio/Mashopolos II - The Mashening/02 Sad But Superstitious.mp3
-13:iTunes/Wax Audio/Mashopolos II - The Mashening/03 Born In A Bad Place.mp3
-14:iTunes/Wax Audio/Mashopolos II - The Mashening/04 Enter You.mp3
-15:iTunes/Wax Audio/Mashopolos II - The Mashening/05 I Hear It Now.mp3
-16:iTunes/Wax Audio/Mashopolos II - The Mashening/06 Blue Rigby.mp3
-17:iTunes/Wax Audio/Mashopolos II - The Mashening/07 Tori's Deranged.mp3
-18:iTunes/Wax Audio/Mashopolos II - The Mashening/08 The Pink Jack.mp3
-19:iTunes/Wax Audio/Mashopolos II - The Mashening/09 Metallica Goes To Istanbul.mp3
-20:iTunes/Wax Audio/Mashopolos II - The Mashening/10 And Krishna For All.mp3
-21:iTunes/Wax Audio/Mashopolos II - The Mashening/11 And I Love Her (Batak Mix).mp3
-22:iTunes/Wax Audio/Mashopolos II - The Mashening/12 The Devil's Highway.mp3
-23:iTunes/Wax Audio/Mashopolos II - The Mashening/13 TrickBattery.mp3
-24:iTunes/Wax Audio/Mashopolos II - The Mashening/14 This Ain't My Girl.mp3
-25:iTunes/Wax Audio/Mashopolos III - Mashups For The People/01 The People.mp3
-26:iTunes/Wax Audio/Mashopolos III - Mashups For The People/02 The Final Teen Spirit.mp3
-27:iTunes/Wax Audio/Mashopolos III - Mashups For The People/03 Lady Judas.mp3
-28:iTunes/Wax Audio/Mashopolos III - Mashups For The People/04 Master Of Doin' It.mp3
-29:iTunes/Wax Audio/Mashopolos III - Mashups For The People/05 Golden Teardrops.mp3
-30:iTunes/Wax Audio/Mashopolos III - Mashups For The People/06 Blue Jump.mp3
-31:iTunes/Wax Audio/Mashopolos III - Mashups For The People/07 The Sun Always Shines At Midnight.mp3
-32:iTunes/Wax Audio/Mashopolos III - Mashups For The People/08 I Want Precious Things.mp3
-33:iTunes/Wax Audio/Mashopolos III - Mashups For The People/09 Chemical Diver.mp3
-34:iTunes/Wax Audio/Mashopolos III - Mashups For The People/10 South Of The Grapevine.mp3
-35:iTunes/Wax Audio/Mashopolos III - Mashups For The People/11 Panama Beat.mp3
-36:iTunes/Wax Audio/Mashopolos III - Mashups For The People/12 Careless Rebel.mp3
-37:iTunes/Wax Audio/Mashopolos III - Mashups For The People/13 The Seas Have No Name.mp3
-38:iTunes/Wax Audio/Mashphonic/01 Crystal Maiden.mp3
-39:iTunes/Wax Audio/Mashphonic/02 Sleeping Bad.mp3
-40:iTunes/Wax Audio/Mashphonic/03 A Hard Girls Night.mp3
-41:iTunes/Wax Audio/Mashphonic/04 Breathe and Destroy.mp3
-42:iTunes/Wax Audio/Mashphonic/05 Stayin in Black.mp3
-43:iTunes/Wax Audio/Mashphonic/06 Justify a Whole Lotta Love.mp3
-44:iTunes/Wax Audio/Mashphonic/07 Voodoo Creeps.mp3
-45:iTunes/Wax Audio/Mashphonic/08 If 6 Was Dub.mp3
-46:iTunes/Wax Audio/Mashphonic/09 Yesterdays Lullaby.mp3
-47:iTunes/Wax Audio/Mashphonic/10 A Hotel Full of Secrets.mp3
-48:Musica/Neuva cancion/La Internacional/03-Las ollitas.mp3
-49:Musica/Neuva cancion/La Internacional/01-La Internacional.mp3
-50:Musica/Neuva cancion/La Internacional/05-Mira la montaña.mp3
-51:Musica/Depeche Mode - The Singles '86-'98 (1998)/CD 1/08 Enjoy The Silence.mp3
-52:Musica/Depeche Mode - The Singles '86-'98 (1998)/CD 1/04 Strangelove.mp3
-53:Musica/Depeche Mode - The Singles 81-85 [MP3 @ 320] (oan)/03 - Depeche Mode - Just Can't Get Enough.mp3
-54:Musica/Emerson, Lake & Palmer - The Very Best Of Emerson, Lake & Palmer (2000)/12. Peter Gunn Theme (Live).m4a
-55:Musica/Emerson, Lake & Palmer - The Very Best Of Emerson, Lake & Palmer (2000)/10. Fanfare For The Common Man.m4a
-56:Musica/Faith No More - The Very Best Definitive Ultimate Greatest Hits Collection (2009) - Rock [www.torrentazos.com]/118-faith_no_more-easy.mp3
-57:Musica/Genesis - Selling England By The Pound/02. I Know What I Like (In Your Wardrobe).m4a
-58:Musica/Genki Sudo - World Order/04 - Boy Meets Girl.mp3
-59:Eric Johnson - Cliff of Dover.mp3
-60:Procol Harum - A Whiter Shade of Pale.mp3
-61:Musica/Franz_Liszt_-_100_Best_Liszt-6CD-2011-XXX/1-11 - 100 Best Liszt - Polonaise Brillante For Piano And Orchestra S367.m4a
-62:Musica/The Top 100 Masterpieces of Classical Music 1685-1928/Disc 6 - 1842-1853/605 - Liszt - Hungarian Rhapsody No. 2.flac
-63:iTunes/100 Classical Masterpieces/Disc 7 1854-1866/7-01 Orpheus in the Underworld - Overture.m4a
-64:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/12 Painkiller.mp3
-65:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/288 Grinder.mp3
-66:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/315 Metal Gods.mp3
-67:iTunes/Babymetal/Babymetal/01 Babymetal Death.mp3
-68:iTunes/Babymetal/Babymetal/03 Gimme Choko!!.mp3
-69:iTunes/Babymetal/Babymetal/02 Megitsune.mp3
-70:iTunes/Babymetal/METAL GALAXY/1-02 DA DA DANCE (feat. Tak Matsumoto).m4a
-71:iTunes/Babymetal/METAL GALAXY/1-03 Elevator Girl.m4a
-72:iTunes/Babymetal/METAL GALAXY/1-04 Shanti Shanti Shanti.m4a
-73:iTunes/Babymetal/METAL GALAXY/1-05 Oh! MAJINAI (feat. Joakim Broden).m4a
-74:iTunes/Babymetal/METAL GALAXY/2-02 Distortion (feat. Alissa White-Gluz).m4a
-75:iTunes/Babymetal/METAL GALAXY/2-03 PA PA YA!! (feat. F.HERO).m4a
-76:iTunes/Babymetal/METAL GALAXY/2-04 BxMxC.m4a
-77:iTunes/Babymetal/Metal Resistance/01 Road of Resistance.mp3
-78:iTunes/Babymetal/Metal Resistance/02 KARATE.mp3
-79:iTunes/Babymetal/Metal Resistance/03 Awadama Fever.mp3
-80:iTunes/Babymetal/Metal Resistance/04 YAVA!.mp3
-81:iTunes/Babymetal/Metal Resistance/05 Amore.mp3
-82:iTunes/Babymetal/Metal Resistance/06 Meta Taro.mp3
-83:iTunes/Babymetal/Metal Resistance/07 From Dusk Till Dawn.mp3
-84:iTunes/Babymetal/Metal Resistance/08 GJ!.mp3
-85:iTunes/Babymetal/Metal Resistance/09 Sis. Anger.mp3
-86:Barclay James Harvest - The Song (They Love To Sing).mp3
-87:Cautious Hero OP_Opening「FULL」- MYTH & ROID「TIT FOR TAT」(慎重勇者)-rqJg9Syyjq0.aac
-88:Charly García - Los dinosaurios-UILQU0VEWII.aac
-89:Chica de Humo - Emmanuel (Video Oficial)-SCE39bYioDU.m4a
-90:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/251 Stone Cold Crazy.mp3
-91:Musica/Queen/Live Albums/2014 Live At the Rainbow (Deluxe Version)/CD2/2-18 Stone Cold Crazy (Live At the R.m4a
-92:iTunes/Metallica/New Skulls For The Old Ceremon/04 Stone Cold Crazy.mp3
-93:iTunes/Foo Fighters/Greatest Hits/1-06 Monkey Wrench.mp3
-94:iTunes/Compilations/The Collection - Rock Classics - The Ultimate Rock Anthems/1-12 Monkey Business.mp3
-95:iTunes/Peter Gabriel/Hit (The Definitive Collection)/1-02 Shock the monkey 1.m4a
-96:iTunes/Rush/Snakes & Arrows/06 The Main Monkey Business.m4a
-97:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0595. George Michael - Fait (1987)/8. Monkey.m4a
-98:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0655. Aerosmith - Pump (1989)/4. Monkey On My Back.m4a
-99:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0656. Pixies - Doolittle (1989)/7. Monkey Gone To Heaven.m4a
-100:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.IV)AAC.Lossy/0755. William Orbit - Strange Cargo III (1993)/10. The Monkey King.m4a
-101:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.IV)AAC.Lossy/0864. Turbonegro - Apocalypse Dudes (1998)/11. Monkey on your back.m4a
-102:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0322. Steely Dan - Pretzel Logic (1974)/11. Monkey In Your Soul.m4a
-103:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0453. The Specials - Specoals (1979)/08. Monkey Man.m4a
-104:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0462. Echo & The Bunnymen - Crocodiles (1980)/420. Monkeys.m4a
-105:Musica/Animetal/2005 - Marathon VII Tatakae! Metal Hero/26 - Monkey Magic .mp3
-106:Musica/Monogatari Series (2009-2016) [MP3]/01 - Bake/[2011.12.21] Bakemonogatari [Ongaku Zenshu Songs & Soundtracks]/CD 2/22 - Jikai Suruga Monkey.mp3
-107:Musica/THE CHEMICAL BROTHERS - DISCOGRAPHY (1995-15) [CHANNEL NEO]/[1997] Chemical Reaction/05 - St. Etienne - Filthy (Monkey Mafia Mix).mp3
-108:Musica/VA - Disney Sing Your Heart Out (3CD, 2018) Mp3 (320kbps) [Hunter]/CD2/04 - I Wan'na Be Like You (The Monkey Song).mp3
-109:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/27 Peace Sells.mp3
-110:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/113 Symphony of Destruction.mp3
-111:iTunes/Megadeth/Countdown To Extinction (Re-Mastered)/09 Psychotron.m4a
-112:iTunes/Megadeth/Hidden Treasures/06 Paranoid.m4a
-113:iTunes/Megadeth/Rude Awakening/09 Train Of Consequences.mp3
-114:iTunes/Megadeth/Rude Awakening/10 Holy Wars.m4a
+0:Cautious Hero OP_Opening「FULL」- MYTH & ROID「TIT FOR TAT」(慎重勇者)-rqJg9Syyjq0.aac
+1:iTunes/100 Classical Masterpieces/Disc 7 1854-1866/7-01 Orpheus in the Underworld - Overture.m4a
+2:Musica/The Top 100 Masterpieces of Classical Music 1685-1928/Disc 6 - 1842-1853/605 - Liszt - Hungarian Rhapsody No. 2.flac
+3:iTunes/Alan Parsons Project/The Essential (Remastered) (Disc 2)/2-10 Eye In The Sky.mp3
+4:iTunes/Alphaville/Forever Young (2018 Remastered)/01 A Victory Of Love.m4a
+5:Musica/Animetal/2005 - Marathon VII Tatakae! Metal Hero/26 - Monkey Magic .mp3
+6:iTunes/Babymetal/Babymetal/01 Babymetal Death.mp3
+7:iTunes/Babymetal/Babymetal/02 Megitsune.mp3
+8:iTunes/Babymetal/Babymetal/03 Gimme Choko!!.mp3
+9:iTunes/Babymetal/METAL GALAXY/1-02 DA DA DANCE (feat. Tak Matsumoto).m4a
+10:iTunes/Babymetal/METAL GALAXY/1-03 Elevator Girl.m4a
+11:iTunes/Babymetal/METAL GALAXY/1-04 Shanti Shanti Shanti.m4a
+12:iTunes/Babymetal/METAL GALAXY/1-05 Oh! MAJINAI (feat. Joakim Broden).m4a
+13:iTunes/Babymetal/METAL GALAXY/2-02 Distortion (feat. Alissa White-Gluz).m4a
+14:iTunes/Babymetal/METAL GALAXY/2-03 PA PA YA!! (feat. F.HERO).m4a
+15:iTunes/Babymetal/METAL GALAXY/2-04 BxMxC.m4a
+16:iTunes/Babymetal/Metal Resistance/01 Road of Resistance.mp3
+17:iTunes/Babymetal/Metal Resistance/02 KARATE.mp3
+18:iTunes/Babymetal/Metal Resistance/03 Awadama Fever.mp3
+19:iTunes/Babymetal/Metal Resistance/04 YAVA!.mp3
+20:iTunes/Babymetal/Metal Resistance/05 Amore.mp3
+21:iTunes/Babymetal/Metal Resistance/06 Meta Taro.mp3
+22:iTunes/Babymetal/Metal Resistance/07 From Dusk Till Dawn.mp3
+23:iTunes/Babymetal/Metal Resistance/08 GJ!.mp3
+24:iTunes/Babymetal/Metal Resistance/09 Sis. Anger.mp3
+25:Barclay James Harvest - The Song (They Love To Sing).mp3
+26:iTunes/Marchas Prusianas y Alemanas/Marchas Prusianas y Alemanas/09 Parademarsch Der 18er Husaren(Grossenhainer Marsch).m4a
+27:iTunes/Boston/Boston/01 More Than a Feeling.mp3
+28:Cannibal Corpse/1993 - Hammer Smashed Face [EP]/01 - Hammer Smashed Face.mp3
+29:Cannibal Corpse/1992 - Tomb Of The Mutilated/01 - Hammer Smashed Face.mp3
+30:Cannibal Corpse/1992 - Tomb Of The Mutilated/02 - I Cum Blood.mp3
+31:iTunes/The Cure/Greatest Hits/1-01 Boys Don't Cry.m4a
+32:iTunes/The Cure/Greatest Hits/1-06 Inbetween Days.m4a
+33:iTunes/The Cure/Greatest Hits/1-14 Friday I'm In Love.m4a
+34:iTunes/Compilations/Rock Legends - The Ultimate Collection/3-08 Just Like Heaven.m4a
+35:iTunes/Compilations/The X Files Movie Sountrack/09 More than This.m4a
+36:iTunes/Paul Oakenfold/Greatest Hits And Remixes (Unmixed)/02 Close To Me (Closer Mix).mp3
+37:iTunes/Compilations/Daft Punk Essentials/11 Digital Love.mp3
+38:iTunes/Compilations/I Love Trance/13 Sandstorm.mp3
+39:Musica/Depeche Mode - The Singles '86-'98 (1998)/CD 1/04 Strangelove.mp3
+40:Musica/Depeche Mode - The Singles '86-'98 (1998)/CD 1/08 Enjoy The Silence.mp3
+41:Musica/Depeche Mode - The Singles 81-85 [MP3 @ 320] (oan)/03 - Depeche Mode - Just Can't Get Enough.mp3
+42:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0462. Echo & The Bunnymen - Crocodiles (1980)/420. Monkeys.m4a
+43:Musica/Elvis Presley - Elvis Forever The Best of Elvis Presley (2017)/24-elvis_presley-dont_be_cruel-87869189.mp3
+44:iTunes/Elvis Presley/Elvis Forever_ The Best of Elvis Presley/27 (You're The) Devil In Disguise.m4a
+45:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.I)AAC.Lossy/0152. Elvis Presley - From Elvis In memphis (1969)/01. Wearin' That Loved On Look.m4a
+46:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/08. Elvis Presley & The Jordanaires - Viva Las Vegas.m4a
+47:Musica/Emerson, Lake & Palmer - The Very Best Of Emerson, Lake & Palmer (2000)/10. Fanfare For The Common Man.m4a
+48:Musica/Emerson, Lake & Palmer - The Very Best Of Emerson, Lake & Palmer (2000)/12. Peter Gunn Theme (Live).m4a
+49:Chica de Humo - Emmanuel (Video Oficial)-SCE39bYioDU.m4a
+50:Eric Johnson - Cliff of Dover.mp3
+51:Musica/Faith No More - The Very Best Definitive Ultimate Greatest Hits Collection (2009) - Rock [www.torrentazos.com]/118-faith_no_more-easy.mp3
+52:iTunes/Foo Fighters/Greatest Hits/1-06 Monkey Wrench.mp3
+53:iTunes/Compilations/Roads of old Ballads/16 I Want To Know What Love Is.m4a
+54:Musica/Franz_Liszt_-_100_Best_Liszt-6CD-2011-XXX/1-11 - 100 Best Liszt - Polonaise Brillante For Piano And Orchestra S367.m4a
+55:Musica/Genesis - Selling England By The Pound/02. I Know What I Like (In Your Wardrobe).m4a
+56:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0595. George Michael - Fait (1987)/8. Monkey.m4a
+57:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/07 Hallowed Be Thy Name.mp3
+58:Jean Jacques Perrey - The Elephant Never Forgets.mp3
+59:iTunes/Journey/Greatest Hits (Limited Gold Edition)/09 Separate Ways (Worlds Apart).m4a
+60:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/12 Painkiller.mp3
+61:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/288 Grinder.mp3
+62:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/315 Metal Gods.mp3
+63:Musica/VA - Disney Sing Your Heart Out (3CD, 2018) Mp3 (320kbps) [Hunter]/CD2/04 - I Wan'na Be Like You (The Monkey Song).mp3
+64:iTunes/Compilations/Best Rock Anthems... Ever CD3/02 Sweet Home Alabama.m4a
+65:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0271. Lynyrd Skynyrd - Pronounced 'Leh-Nerd 'Skin-Nerd' (1973)/08. Free Bird.m4a
+66:iTunes/Marillion/The Best of Both Worlds Disc/1-08 Kayleigh [Single Version].mp3
+67:iTunes/Megadeth/Countdown To Extinction (Re-Mastered)/09 Psychotron.m4a
+68:iTunes/Megadeth/Hidden Treasures/06 Paranoid.m4a
+69:iTunes/Megadeth/Rude Awakening/09 Train Of Consequences.mp3
+70:iTunes/Megadeth/Rude Awakening/10 Holy Wars.m4a
+71:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/113 Symphony of Destruction.mp3
+72:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/27 Peace Sells.mp3
+73:iTunes/Metallica/And Justice For All/02 And Justice For All 1.m4a
+74:iTunes/Metallica/Death Magnetic/06 Cyanide.m4a
+75:iTunes/Metallica/New Skulls For The Old Ceremon/04 Stone Cold Crazy.mp3
+76:iTunes/Metallica/St. Anger/01 Frantic.m4a
+77:iTunes/Metallica/St. Anger/02 St. Anger.m4a
+78:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/02 Master of Puppets.mp3
+79:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/103 Whiplash.mp3
+80:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/122 Ride the Lightning.mp3
+81:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/13 One.mp3
+82:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/131 Disposable Heroes.mp3
+83:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/198 Blackened.mp3
+84:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/21 Creeping Death.mp3
+85:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/249 Trapped Under Ice.mp3
+86:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/31 For Whom the Bell Tolls.mp3
+87:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/36 Enter Sandman.mp3
+88:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/50 Seek & Destroy.mp3
+89:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/64 The Four Horsemen.mp3
+90:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/67 Battery.mp3
+91:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/71 Fight Fire With Fire.mp3
+92:Musica/Metallica – Essentials (2018) 320 KBPS/16. The Four Horsemen (Remastered).m4a
+93:iTunes/Compilations/Roads of old Ballads/31 Love Hurts.m4a
+94:iTunes/Perfume/Cosmic Explorer/06 FLASH (Album-mix).m4a
+95:Musica/PERFUME/[131002] 5th Album - LEVEL3/02. Spring of Life (Album-mix).m4a
+96:Musica/PERFUME/[131002] 5th Album - LEVEL3/07. Party Maker.m4a
+97:iTunes/Perfume/Future Pop/03 If You Wanna.m4a
+98:iTunes/Perfume/GAME/03 GAME.m4a
+99:iTunes/Perfume/GAME/08 Take me Take me.m4a
+100:iTunes/Perfume/GAME/10 Butterfly.m4a
+101:iTunes/Perfume/GAME/11 Twinkle Snow Powdery Snow.m4a
+102:iTunes/Perfume/GAME/12 Puppy love.m4a
+103:iTunes/Perfume/Level3 (Bonus Edition)/01 Enter the Sphere.m4a
+104:iTunes/Perfume/Level3 (Bonus Edition)/02 Spring of Life.m4a
+105:iTunes/Perfume/Level3 (Bonus Edition)/07 Party Maker.m4a
+106:iTunes/Perfume/Level3 (Bonus Edition)/16 Spending All My Time (DV&LM remix).m4a
+107:iTunes/Peter Gabriel/Hit (The Definitive Collection)/1-02 Shock the monkey 1.m4a
+108:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0656. Pixies - Doolittle (1989)/7. Monkey Gone To Heaven.m4a
+109:Procol Harum - A Whiter Shade of Pale.mp3
+110:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/251 Stone Cold Crazy.mp3
+111:Musica/Queen/Live Albums/2014 Live At the Rainbow (Deluxe Version)/CD2/2-18 Stone Cold Crazy (Live At the R.m4a
+112:Musica/Neuva cancion/La Internacional/01-La Internacional.mp3
+113:Musica/Neuva cancion/La Internacional/03-Las ollitas.mp3
+114:Musica/Neuva cancion/La Internacional/05-Mira la montaña.mp3
+115:iTunes/Rush/Snakes & Arrows/06 The Main Monkey Business.m4a
+116:Musica/Monogatari Series (2009-2016) [MP3]/01 - Bake/[2011.12.21] Bakemonogatari [Ongaku Zenshu Songs & Soundtracks]/CD 2/22 - Jikai Suruga Monkey.mp3
+117:iTunes/Compilations/The Collection - Rock Classics - The Ultimate Rock Anthems/1-12 Monkey Business.mp3
+118:iTunes/Slayer/Soundtrack to the Apocalypse - Disc 1 of 5/13 Hallowed Point.m4a
+119:iTunes/Slayer/Soundtrack to the Apocalypse - Disc 2 of 5/15 In-A-Gadda-Da-Vida.mp3
+120:iTunes/Compilations/The Top 500 Heavy Metal Songs of All Time/20 Raining Blood.mp3
+121:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0576. Slayer - Reign In Blood (1986)/1. Angel Of Death.m4a
+122:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0576. Slayer - Reign In Blood (1986)/5. Jesus Saves.m4a
+123:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0453. The Specials - Specoals (1979)/08. Monkey Man.m4a
+124:Musica/THE CHEMICAL BROTHERS - DISCOGRAPHY (1995-15) [CHANNEL NEO]/[1997] Chemical Reaction/05 - St. Etienne - Filthy (Monkey Mafia Mix).mp3
+125:Starship - Greatest Hits (Ten Years And Change 1979-1991)/08 Sara.mp3
+126:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0322. Steely Dan - Pretzel Logic (1974)/11. Monkey In Your Soul.m4a
+127:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/61 Mr. Roboto (Techno Remix).m4a
+128:iTunes/Compilations/Best Rock Anthems... Ever CD2/03 The Logical Song.m4a
+129:Musica/Tchaikovsky,Essential ,Complete,Swan Lake ,The Nutcracker, The Sleeping Beauty, R. Bonynge/Essential Tchaikovsky cd 2/16 1812 Overture, op. 49 (conclusion).m4a
+130:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0339. Tom Waits - Nighthawks At The Diner (1975)/11. Warm Beer and Cold Women.m4a
+131:iTunes/The Royal Philharmonic Orchestra/The Royal Philharmonic Orchestra plays - The Last Night Of The Proms/07 Fantasia On British Sea Songs - The Saucy Arenthusa.m4a
+132:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.IV)AAC.Lossy/0864. Turbonegro - Apocalypse Dudes (1998)/11. Monkey on your back.m4a
+133:Walter Murphy - Space Adventure.mp3
+134:iTunes/Compilations/Roads of old Ballads/56 Is This Love.m4a
+135:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.IV)AAC.Lossy/0755. William Orbit - Strange Cargo III (1993)/10. The Monkey King.m4a
+136:Musica/Genki Sudo - World Order/04 - Boy Meets Girl.mp3
+137:iTunes/Yes/Highlights The Very Best Of/05 Roundabout.mp3
+138:Charlie_Garcia_-_Los_Dinosaurios.mp3
+139:Cannibal Corpse - Hammer Smashed Face.mp3
+140:Cannibal Corpse - I Cum Blood.mp3
+141:Hiromi Okada - Hungarian Rhapsody, No. 2.mp3
+142:Emociones Clandestinas - Un Nuevo Baile.mp3
+143:Larry Owens - INTERLUDE.mp3
+144:New Trolls - Espanolada-J4e61Y0YUYo.m4a
+145:Red Army Choir - The Hunt For Red October.mp3
+146:Willy Wonka & the Chocolate Factory - The Candy Man.mp3
+147:Willy Wonka & the Chocolate Factory - Pure Imagination.mp3
+148:OST - The Hunt for Red October - Hymn to Red October.mp3
+149:OST - Red Alert 3 Theme - Soviet March.mp3
+150:Soviet Union - Anthem USSR (Best version).mp3
+151:Musica/99 Most Essential Opera Classics.2011[www.lokotorrents.com][mp3]/10 - Pagliacci, Act 1_ Recitar!... Vesti la giubba.mp3
+152:Musica/Raffaella Carra - Tutto Carra 2 cd`s/CD1/01 Fiesta.mp3
+153:Musica/Raffaella Carra - Tutto Carra 2 cd`s/CD1/02 Hay que venir al sur.mp3
+154:Musica/Raffaella Carra - Tutto Carra 2 cd`s/CD1/03 En el amor todo es empezar.mp3
+155:Musica/Rage Against the Machine Discography (1992-2012) iTunes AAC 256/1992 - Rage Against the Machine/02 Killing In the Name.m4a
+156:Musica/Rage Against the Machine Discography (1992-2012) iTunes AAC 256/1996 - Evil Empire/02 Bulls On Parade.m4a
+157:Musica/Ramones - Essentials (2018) Mp3 320kbps Songs [PMEDIA]/01. Blitzkrieg Bop.m4a
+158:Musica/Ramones - Essentials (2018) Mp3 320kbps Songs [PMEDIA]/02. I Wanna Be Sedated.m4a
+159:Musica/Rush - 2112 [Deluxe Edition] [smb]/01 2112.m4a
+160:Musica/Sho×Mei -SHOMEI- (証×明 -SHOMEI-) [Album] - eimusics.com/01 証×炎 -SHOEN-.mp3
+161:Musica/Sidonia no Kishi シドニアの騎士 (2014-2015) [MP3]/[2014.05.14] show [ED Single - Kitamura Eri]/01. show.m4a
+162:Musica/Sidonia no Kishi シドニアの騎士 (2014-2015) [MP3]/[2014.05.21] Sidonia [OP Single - angela]/01. Sidonia.m4a
+163:Musica/Sidonia no Kishi シドニアの騎士 (2014-2015) [MP3]/[2015.04.29] Kishi Koushinkyoku [OP2 Single - angela]/01. Kishi Koushinkyoku.m4a
+164:Musica/Sidonia no Kishi シドニアの騎士 (2014-2015) [MP3]/[2015.02.04] Hitosugi no Hikari [ED2 - Customize]/01. Hitosuji no Hikari.m4a
+165:Musica/SNES.Donkey.Kong.Country.OST.1994.Rare.Nintendo.High.VBR-GL8/Donkey.Kong.Country.01.Theme-GL8.mp3
+166:Musica/SNES.Donkey.Kong.Country.OST.1994.Rare.Nintendo.High.VBR-GL8/Donkey.Kong.Country.02.Simian.Segue-GL8.mp3
+167:Musica/SNES.Donkey.Kong.Country.OST.1994.Rare.Nintendo.High.VBR-GL8/Donkey.Kong.Country.08.Aquatic.Ambiance-GL8.mp3
+168:Musica/Studio Ghibli Songs New Edition/Disc 1/04 - My Neighbor Totoro (My Neighbor Totoro).m4a
+169:Musica/Studio Ghibli Songs New Edition/Disc 1/05 - Home Sweet Home (Grave of the Fireflies).m4a
+170:Musica/Studio Ghibli Songs New Edition/Disc 1/08 - Love is a Flower, You are the Seed (Only Yesterday).m4a
+171:Musica/Studio Ghibli Songs New Edition/Disc 1/10 - Once in a While, Let's Talk of the Old Days (Porco Rosso).m4a
+172:Musica/Studio Ghibli Songs New Edition/Disc 2/01 - Always With Me (Spirited Away).m4a
+173:Musica/Studio Ghibli Songs New Edition/Disc 2/08 - Ponyo on the Cliff by the Sea (Ponyo).m4a
+174:Musica/Studio Ghibli Songs New Edition/Disc 1/14 - Country Road (Whisper of the Heart).m4a
+175:Spandau Ballet - The Story. The Very Best Of (2014)/01 - To Cut a Long Story Short (2010 Remastered Version).m4a
+176:Spandau Ballet - The Story. The Very Best Of (2014)/08 - True.m4a
+177:Spandau Ballet - The Story. The Very Best Of (2014)/18 - Steal.m4a
+178:Spandau Ballet - The Story. The Very Best Of (2014)/17 - This Is The Love.m4a
+179:Spandau Ballet - The Story. The Very Best Of (2014)/15 - Through the Barricades.m4a
 playlist_end

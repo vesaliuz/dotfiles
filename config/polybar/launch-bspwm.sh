@@ -20,4 +20,4 @@ export cputhermalzone="$(for i in /sys/class/thermal/thermal_zone*; do
 [ "$cputhermalzone" ] && sed -i "s/thermal-zone\ =\ 10/thermal-zone\ =\ $cputhermalzone/g" ~/.config/polybar/config
 
 # Launch Polybar, using default config location ~/.config/polybar/config
-polybar -c ~/.config/polybar/config.bspwm topbar &
+polybar -c ~/.config/polybar/bspwm.polybar top &
