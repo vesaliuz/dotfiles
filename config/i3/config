@@ -43,9 +43,9 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border pixel 2
+default_border 1pixel
 new_float normal
-# border_radius 10
+border_radius 10
 
 # Hide borders
 hide_edge_borders none
@@ -452,12 +452,14 @@ for_window [urgent=latest] focus
 exec --no-startup-id ~/.config/polybar/launch-i3.sh
 exec --no-startup-id alternating_layouts.py
 exec --no-startup-id xautolock -time 10 -locker "~/.config/autolock.sh
-exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
+# exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id sxhkd
 exec --no-startup-id sxhkd -c ~/.config/sxhkd/i3.sxhkdrc
-# exec --no-startup-id variety ; sleep 1; wal $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)  
-exec --no-startup-id dwall -firewatch
-exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
+exec --no-startup-id variety ; sleep 1; wal $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)  
+# exec --no-startup-id dwall -firewatch
+# exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
+exec --no-startup-id picom -b --config ~/.config/picom.conf
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id blueman-applet

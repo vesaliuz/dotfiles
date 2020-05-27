@@ -12,6 +12,9 @@ local clickable_container = require('widget.material.clickable-container')
 local HOME = os.getenv('HOME')
 local PATH_TO_ICONS = HOME .. '/.config/awesome/widget/weather/icons/'
 
+-- Weather Updater
+require('widget.weather.weather-update')
+
 weather_icon_widget = wibox.widget {
   {
     id = 'icon',
@@ -25,7 +28,6 @@ weather_icon_widget = wibox.widget {
 }
 
 weather_header = wibox.widget {
-  text   = "Weather & Temperature",
   font   = 'SFNS Display Regular 14',
   align  = 'center',
   valign = 'center',
@@ -34,8 +36,8 @@ weather_header = wibox.widget {
 
 
 weather_description = wibox.widget {
-  text   = "Check internet connection!",
-  font   = 'SFNS Display Regular 14',
+  text   = "No internet connection...",
+  font   = 'SFNS Display Regular 16',
   align  = 'left',
   valign = 'center',
   widget = wibox.widget.textbox
@@ -64,9 +66,9 @@ local weather_report =  wibox.widget {
   {
     wibox.widget {
       wibox.container.margin(weather_header, dpi(10), dpi(10), dpi(10), dpi(10)),
-      bg = beautiful.bg_modal_title,
+      bg = beautiful.modal_bg,
       shape = function(cr, width, height)
-      gears.shape.partially_rounded_rect(cr, width, height, true, true, false, false, beautiful.modal_radius) end,
+      gears.shape.partially_rounded_rect(cr, width, height, true, true, false, false, 6) end,
       widget = wibox.container.background,
     },
     layout = wibox.layout.fixed.vertical,
@@ -87,7 +89,7 @@ local weather_report =  wibox.widget {
       {
         {
 
-          layout = wibox.layout.flex.vertical,
+          layout = wibox.layout.fixed.vertical,
           weather_description,
           weather_temperature,
         },
@@ -95,15 +97,11 @@ local weather_report =  wibox.widget {
         widget = wibox.container.margin
       },
     },
-    bg = beautiful.bg_modal,
+    bg = beautiful.modal_bg,
     shape = function(cr, width, height)
-    gears.shape.partially_rounded_rect(cr, width, height, false, false, true, true, beautiful.modal_radius) end,
+    gears.shape.partially_rounded_rect(cr, width, height, false, false, true, true, 6) end,
     widget = wibox.container.background
   },
 }
-
--- Weather Updater
--- Update Weather information using this
-require('widget.weather.weather-update')
 
 return weather_report

@@ -13,8 +13,8 @@ local dpi = require('beautiful').xresources.apply_dpi
 
 local HOME = os.getenv('HOME')
 local PATH_TO_ICONS = HOME .. '/.config/awesome/widget/wifi/icons/'
-local interface = 'wifi1'
-local connected = true
+local interface = 'wlp3s0'
+local connected = false
 local essid = 'N/A'
 
 local widget =

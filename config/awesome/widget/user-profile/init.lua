@@ -20,11 +20,11 @@ local PATH_TO_USERICON = '/var/lib/AccountsService/icons/'
 
 
 local profile_imagebox =
-  wibox.widget {
+wibox.widget {
   {
     id = 'icon',
     forced_height = dpi(70),
-    image = PATH_TO_ICONS .. 'user' .. '.svg',
+    image = PATH_TO_ICONS .. 'koala' .. '.png',
     clip_shape = gears.shape.circle,
     widget = wibox.widget.imagebox,
     resize = true
@@ -52,7 +52,7 @@ local uptime_time = wibox.widget {
 
 
 
-  -- Check username
+-- Check username
 awful.spawn.easy_async_with_shell('whoami', function(out)
 
   -- Update profile name
@@ -64,50 +64,50 @@ awful.spawn.easy_async_with_shell('whoami', function(out)
 
   -- Bash script to check if user profile picture exists in /var/lib/AccountsService/icons/
   local cmd_check_user_profile = "if test -f " .. PATH_TO_USERICON .. out .. "; then print 'image_detected'; else print 'not_detected'; fi"
-  awful.spawn.easy_async_with_shell(cmd_check_user_profile, function(stdout)
+    awful.spawn.easy_async_with_shell(cmd_check_user_profile, function(stdout)
 
-    -- there_is_face
-    if stdout:match('image_detected') then
+      -- there_is_face
+      if stdout:match('image_detected') then
 
-      -- Check if we already have a user's profile image copied to icon folder
-      local cmd_icon_check = "if test -f " .. PATH_TO_ICONS .. 'user.jpg' .. "; then print 'exists'; fi"
-      awful.spawn.easy_async_with_shell(cmd_icon_check, function(stdout)
-        if stdout:match('exists') then
-          -- If the file already copied, don't copy, just update the imagebox
-          profile_imagebox.icon:set_image(PATH_TO_ICONS .. 'user.jpg')
+        -- Check if we already have a user's profile image copied to icon folder
+        local cmd_icon_check = "if test -f " .. PATH_TO_ICONS .. 'koala.png' .. "; then print 'exists'; fi"
+          awful.spawn.easy_async_with_shell(cmd_icon_check, function(stdout)
+            if stdout:match('exists') then
+              -- If the file already copied, don't copy, just update the imagebox
+              profile_imagebox.icon:set_image(PATH_TO_ICONS .. 'koala.png')
+            else
+              -- Image detected, now copy your profile picture to the widget directory icon folder
+              copy_cmd = 'cp ' .. PATH_TO_USERICON .. out .. ' ' .. PATH_TO_ICONS .. 'koala.png'
+              awful.spawn(copy_cmd)
+
+              -- Add a timer to a delay
+              -- The cp command is not fast enough so we will need this to update image
+              gears.timer {
+                timeout = 1,
+                autostart = true,
+                single_shot = true,
+                callback  = function()
+                -- Then set copied image as profilepic in the widget
+                profile_imagebox.icon:set_image(PATH_TO_ICONS .. 'koala.png')
+              end
+            }
+          end
+        end, false)
+
         else
-          -- Image detected, now copy your profile picture to the widget directory icon folder
-          copy_cmd = 'cp ' .. PATH_TO_USERICON .. out .. ' ' .. PATH_TO_ICONS .. 'user.jpg'
-          awful.spawn(copy_cmd)
+          -- r_u_ugly?
+          -- if yes then use this image instead
+            profile_imagebox.icon:set_image(PATH_TO_ICONS .. 'koala' .. '.png')
+          end
 
-          -- Add a timer to a delay
-          -- The cp command is not fast enough so we will need this to update image
-          gears.timer {
-            timeout = 1,
-            autostart = true,
-            single_shot = true,
-            callback  = function()
-              -- Then set copied image as profilepic in the widget
-              profile_imagebox.icon:set_image(PATH_TO_ICONS .. 'user.jpg')
-            end
-          }
-        end
-      end, false)
-
-    else
-      -- r_u_ugly?
-      -- if yes then use this image instead
-      profile_imagebox.icon:set_image(PATH_TO_ICONS .. 'user' .. '.svg')
-    end
+        end, false)
 
   end, false)
-
-end, false)
 
 
 
 -- Check distro name
-awful.spawn.easy_async_with_shell("cat /etc/os-release | awk 'NR==1'| awk -F " .. "'" .. '"' .. "'" .. " '{print $2}'", function(out)
+awful.spawn.easy_async_with_shell("cat /etc/os-release | awk 'NR==2'| awk -F " .. "'" .. '"' .. "'" .. " '{print $2}'", function(out)
   -- Remove newline represented by `\n`
   distroname = out:gsub('%\n','')
   distro_name.markup = '<span font="SFNS Display Regular 12">' .. distroname ..'</span>'
@@ -156,7 +156,7 @@ local user_profile = wibox.widget {
     margins = dpi(10),
     widget = wibox.container.margin,
   },
-  bg = beautiful.bg_modal,
+  bg = beautiful.modal_bg,
   shape = function(cr, width, height) gears.shape.rounded_rect(cr, width, height, 6) end,
   widget = wibox.container.background
 }

@@ -82,7 +82,17 @@ mpd_music_dir = "~/Music"
 ##
 visualizer_type = spectrum
 #
-visualizer_look = ##
+visualizer_look = ●┃
+visualizer_color = cyan, green, yellow, magenta, red 
+progressbar_look = "━━━"
+progressbar_elapsed_color = "red"
+progressbar_color = "black"
+playlist_display_mode = "classic"
+autocenter_mode = "yes"
+centered_cursor = "yes"
+user_interface = "classic"
+follow_now_playing_lyrics = "yes"
+
 #visualizer_look = 卐
 #
 #visualizer_color = blue, cyan, green, yellow, magenta, red
@@ -292,7 +302,6 @@ current_item_inactive_column_suffix = $/r$(end)
 ##
 ## Note: Possible display modes: classic, columns.
 ##
-playlist_display_mode = columns
 #
 browser_display_mode = columns
 #
@@ -318,7 +327,6 @@ browser_display_mode = columns
 ## Note: You can specify third character which will be used to build 'empty'
 ## part of progressbar.
 ##
-progressbar_look = ->
 #
 ## Available values: database, playlist.
 ##
@@ -358,7 +366,7 @@ media_library_albums_split_by_date = no
 #
 #follow_now_playing_lyrics = no
 #
-fetch_lyrics_for_current_song_in_background = no
+fetch_lyrics_for_current_song_in_background = yes
 #
 store_lyrics_in_song_dir = no
 #
@@ -416,13 +424,13 @@ startup_screen = media_library
 #
 #ask_before_clearing_playlists = yes
 #
-#clock_display_seconds = no
+clock_display_seconds = yes
 #
-display_volume_level = no
+display_volume_level = yes
 #
 #display_bitrate = no
 #
-#display_remaining_time = no
+display_remaining_time = yes
 #
 ## Available values: none, basic, extended, perl.
 ##
@@ -527,9 +535,7 @@ main_window_color = white
 #
 #color2 = green
 #
-progressbar_color = black:b
 #
-progressbar_elapsed_color = blue:b
 #
 statusbar_color = red
 #

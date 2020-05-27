@@ -17,8 +17,8 @@ local HOME = os.getenv('HOME')
 local PATH_TO_ICONS = HOME .. '/.config/awesome/widget/weather/icons/'
 
 -- Configuration
-local key       = "e35c8e1bf2f3b6862a20565ee3c16bb5"    -- openweathermap_api_key
-local city_id   = "3870282"    -- openweathermap_city_id
+local key       = "f4af1a6678b630bf4b95c3788e027f8f"    -- openweathermap_api_key
+local city_id   = "2650225"    -- openweathermap_city_id
 local units     = "metric"    -- weather_units  metric(°C)/imperial(°F)
 
 -- Don't update too often, because your requests might get blocked for 24 hours
@@ -38,14 +38,11 @@ local weather_details_script = [[
     KEY="]]..key..[["
     CITY="]]..city_id..[["
     UNITS="]]..units..[["
-
     weather=$(curl -sf "http://api.openweathermap.org/data/2.5/weather?APPID=$KEY&id=$CITY&units=$UNITS")
-
     if [ ! -z "$weather" ]; then
         weather_temp=$(echo "$weather" | jq ".main.temp" | cut -d "." -f 1)
         weather_icon=$(echo "$weather" | jq -r ".weather[].icon" | head -1)
         weather_description=$(echo "$weather" | jq -r ".weather[].description" | head -1)
-
         echo "$weather_icon" "$weather_description"@@"$weather_temp"
     else
         echo "..."
@@ -71,7 +68,7 @@ local weather_details_script = [[
             local description = weather_details:match('(.*)@@')
             local temperature = weather_details:match('@@(.*)')
             if icon_code == "..." then
-                awesome.emit_signal("widget::weather", "---", "Check internet connection!", "")
+                awesome.emit_signal("widget::weather", "Maybe it's 10000", "No internet connection...", "")
             else
                 awesome.emit_signal("widget::weather", tonumber(temperature), description, icon_code)
             end
@@ -91,7 +88,7 @@ local weather_details_script = [[
     local description = weather_details:match('(.*)@@')
     local temperature = weather_details:match('@@(.*)')
     if icon_code == "..." then
-        awesome.emit_signal("widget::weather", "---", "Check internet connection!", "")
+        awesome.emit_signal("widget::weather", "Maybe it's 10000", "No internet connection...", "")
     else
         awesome.emit_signal("widget::weather", tonumber(temperature), description, icon_code)
     end

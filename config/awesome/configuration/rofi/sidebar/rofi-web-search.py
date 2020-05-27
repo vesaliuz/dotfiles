@@ -19,13 +19,13 @@ import html
 ################################################################################
 SEARCH_ENGINE = 'google'            # or 'duckduckgo'
 BROWSER = 'firefox'                  # or 'firefox', 'chromium', 'brave', 'lynx'
-TERMINAL = ['termite', '-e'] # or ['st', '-e'] or something like that
+TERMINAL = ['kitty', '--'] # or ['st', '-e'] or something like that
 ################################################################################
 
 CONFIG = {
     'BROWSER_PATH' : {
         'chrome' : ['google-chrome-stable'],
-        'firefox' : ['firefox-developer-edition'],
+        'firefox' : ['firefox'],
         'chromium' : ['chromium-browser'],
         'brave' : ['brave-browser'],
         'lynx' : TERMINAL + ['lynx']

@@ -114,8 +114,6 @@ local notification_bg = beautiful.notification_bg
 beautiful.notification_margin = dpi(5)
 naughty.connect_signal("request::display", function(n)
 
-
-
   -- naughty.actions template
   local actions_template = wibox.widget {
     notification = notif,
@@ -145,7 +143,6 @@ naughty.connect_signal("request::display", function(n)
     widget = naughty.list.actions,
   }
 
-
   naughty.layout.box {
     notification = n,
     type = "splash",
@@ -159,10 +156,10 @@ naughty.connect_signal("request::display", function(n)
                 {
                   {
                     {
-                      -- TITLE
                       {
                         {
                           {
+                            -- TITLE
                             align = "center",
                             widget = naughty.widget.title,
                           },
@@ -225,7 +222,7 @@ naughty.connect_signal("request::display", function(n)
          },
          -- Anti-aliasing container
          -- Real BG
-         bg = beautiful.background.hue_800,
+         bg = beautiful.background.hue_900,
          -- This will be the anti-aliased shape of the notification
          shape = gears.shape.rounded_rect,
          widget = wibox.container.background
@@ -242,8 +239,8 @@ naughty.connect_signal("request::display", function(n)
   if _G.panel_visible or _G.dont_disturb then
     naughty.destroy_all_notifications()
   else
-    -- Add Sound fx to notif
-    awful.spawn('canberra-gtk-play -i message', false)
+    -- Add sound fx on notif
+    awful.spawn('play /usr/share/sounds/freedesktop/stereo/message.oga', false)
   end
 
 end)

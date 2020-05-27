@@ -1,7 +1,8 @@
 configuration {
   show-icons:                     true;
+  fullscreen:                     false;
   icon-theme:                     "korla";
-  font:                           "Neue Haas Unica Pro Bold 9";
+  font:                           "Neue Haas Unica Pro Bold 14";
   drun-display-format:            "{name}";
 }
 
@@ -9,7 +10,7 @@ configuration {
   background-color:               transparent;
   background:                     #00000066;
   background-alt:                 #f2f2f233;
-  text-color:                     #f2f2f2;
+  text-color:                     #D8DEE9;
   selected-text-color:            #ffffff;
   primary:                        #A3BE8C;
   urgent:                         #BF616A;
@@ -18,12 +19,9 @@ configuration {
 window {
   transparency:                   "real";
   background-color:               @background;
-  height:                         742px;
-  width:                          1321px;
-  location:                       northwest;
-  anchor:                         northwest;
-  x-offset:                       45;
-  y-offset:                       26;
+  height:                         710px;
+  width:                          1356px;
+  border-radius:                  6;
 }
 
 prompt {
@@ -41,27 +39,22 @@ inputbar {
   width:                          1px;
 }
 
-
 entry {
-  /*expand:                        false;
+  /*expand:                         false;
   width:                          20em;
   margin:                         40px -275px 20px 355px;
   border-radius:                  6;
   padding:                        10px 10px 10px 10px;
   background-color:               #00000020;
   border:                         0px 0px solid 0px 0px;
-  border-color:                   @text-color;*/
-  horizontal-align:               0.5;
-  font:                           "Neue Haas Unica Pro Bold 9";
-  placeholder:                    "Search Applications";
-  placeholder-color:              @text-color;
-  blink:                          true;
+  border-color:                   @text-color;
+  font:                           "SFNS Display 10";*/
 }
 
 
 listview {
-  columns: 6;
-  spacing: 4;
+  columns: 3;
+  spacing: 3;
   dynamic: false;
 }
 
