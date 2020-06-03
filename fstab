@@ -1,0 +1,13 @@
+#
+# Use 'blkid' to print the universally unique identifier for a device; this may
+# be used with UUID= as a more robust way to name devices that works even if
+# disks are added and removed. See fstab(5).
+#
+# <file system>             <mount point>  <type>  <options>  <dump>  <pass>
+UUID=67E3-17ED                            /boot/efi      vfat    umask=0077 0 2
+UUID=5810fb05-1b06-498e-9e29-4660f76eec18 /boot          ext4    defaults,noatime 0 2
+UUID=caea76ad-db3e-422f-aa52-3a0b67b4748e /              ext4    defaults,noatime 0 1
+UUID=aaef5bfb-082f-4b77-a401-3fab21641d11 /home          ext4    defaults,noatime 0 2
+UUID=5CB4-F732		    /mnt/games	  exfat	 defaults,noatime,nofail  0 2
+UUID=5C26-70B3		    /mnt/3tbdrive exfat	 defaults,noatime,nofail  0 2
+UUID=4722-8390		    /mnt/2tbdrive exfat   defaults,noatime,nofail  0 2 		

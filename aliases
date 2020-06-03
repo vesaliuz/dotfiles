@@ -1,8 +1,8 @@
-alias cp='acp -g'
-alias mv='amv -g'
 alias ls='ls --color=auto'
 alias fc='sudo fc-cache -fv'
 #youtube-dl
+alias cp='advcp -g'
+alias mv='advmv -g'
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
@@ -27,7 +27,6 @@ alias yalst='yay -Qe'
 alias yaorph='yay -Qtd'
 alias yainsd='yay -S --asdeps'
 alias yamir='yay -Syy'
-alias curseradio='curseradio-improved'
 alias extraer='dtrx '
 alias mirror="sudo reflector -f 30  --number 20 -c CL -c US -c CA -c DE -p https -p http --verbose  --save /etc/pacman.d/mirrorlist"
 alias ta='tmux attach -t'
