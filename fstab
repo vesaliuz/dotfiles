@@ -8,6 +8,6 @@ UUID=67E3-17ED                            /boot/efi      vfat    umask=0077 0 2
 UUID=5810fb05-1b06-498e-9e29-4660f76eec18 /boot          ext4    defaults,noatime 0 2
 UUID=caea76ad-db3e-422f-aa52-3a0b67b4748e /              ext4    defaults,noatime 0 1
 UUID=aaef5bfb-082f-4b77-a401-3fab21641d11 /home          ext4    defaults,noatime 0 2
-UUID=5CB4-F732		    /mnt/games	  exfat	 defaults,noatime,nofail  0 2
-UUID=5C26-70B3		    /mnt/3tbdrive exfat	 defaults,noatime,nofail  0 2
-UUID=4722-8390		    /mnt/2tbdrive exfat   defaults,noatime,nofail  0 2 		
+UUID=5CB4-F732		    /mnt/games	  exfat	 rw,defaults,uid=1000,gid=1000,noatime,nofail  0 0
+UUID=5C26-70B3		    /mnt/3tbdrive exfat	 rw,defaults,uid=1000,gid=1000,noatime,nofail  0 0
+UUID=4722-8390		    /mnt/2tbdrive exfat  rw,defaults,uid=1000,gid=1000,noatime,nofail  0 0 		
