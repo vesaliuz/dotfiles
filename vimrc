@@ -48,6 +48,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'flazz/vim-colorschemes'
 Plug 'dylanaraps/wal.vim'
+Plug 'morhetz/gruvbox'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -184,7 +185,11 @@ set ruler
 set number
 
 let no_buffers_menu=1
-silent! colorscheme wombat
+"silent! colorscheme wombat
+colorscheme gruvbox
+let g:gruvbox_contrast_dark = 'hard'
+:set background=dark
+let g:gruvbox_termcolors = 256
 
 set mousemodel=popup
 set t_Co=256
@@ -249,7 +254,7 @@ if exists("*fugitive#statusline")
 endif
 
 " vim-airline
-:let g:airline_theme = 'powerlineish'
+:let g:airline_theme = 'gruvbox'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1

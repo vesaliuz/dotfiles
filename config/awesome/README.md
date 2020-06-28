@@ -1,125 +1,70 @@
-<div align="center">
-    <h1>awesomedotfiles</h1>
-    <p>Fork of  https://github.com/ilovecookieee/Glorious-Dotfiles/tree/master/config/awesome/lines</b></p>
-    <p>Aims to be pretty, functional, and light weight. </p>
-</div>
+# My Awesome Configuration
 
-## Details
-+ **OS**: Debian
-+ **WM**: AwesomeWM
-+ **Terminal Emulators**: kitty, konsole, st
-+ **Compositor**: compton-tryone
-+ **File Manager**: nemo
-+ **Launcher**: rofi
-+ **Editor**: geany, nano
-+ **Browser**: firefox
-+ **Music Player**: ncmpcpp, mpd, mpc
-+ **Display Manager**: lightdm
-+ **Setup font**: SFNS Display, Hack, Musica
+![Screenshot of my desktop](https://www.gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles09.png)
 
-## FEATURES!
-+ **Notification Center**
-+ **Brightness and Volume OSDs**
-+ **Side panel music controller**
-+ **Weather widget**
-+ **Calculator**
+Awesome is a highly configurable, tiling window manager for X. It is very fast, extensible and licensed under the GNU GPLv2 license.  Awesome is a perfect "first" tiling window manager for those who want to try out tiling, but the extreme customization that you can achieve with awesome makes it a power user's dream.  Awesome is configured with Lua.
 
+# Features
 
-### Desktop
-![Screenshot](https://i.imgur.com/8qdGQyv.jpg) 
-### Side panel
-![Screenshot](https://i.imgur.com/2Z9zCxo.png) 
-### Rofi
-![Screenshot](https://i.imgur.com/KYn4pFM.png) 
+* Simple enough for beginner's but flexible enough for the power user.
+* Extremely customizable, maybe more so than any other window manager.
+* Configured in Lua.
+* A documented API to configure and define the behavior of your window manager.
 
-## Dependencies
-Here is a complete list of dependencies REQUIRED for making these AwesomeWM setup to work.
-If you notice that something is missing, please open an issue so I can add the dependency to this table.
+# My Keybindings
 
-| Dependency | Description | Why/Where is it needed? | Version |
-| --- | --- | --- | --- |
-| `awesome` | Window manager | yeah awesome | master brunch |
-| `rofi` | Window switcher, application launcher and dmenu replacement | Application launcher | master brunch |
-| `Compton-tryone` | A compositor for X11 | compositor with kawase-blur | master brunch |
-| `blueman` | Manages bluetooth | For bluetooth widgets | any |
-| `xfce4-power-manager` | Manages battery/power settings | Power Settings | any |
-| `pulseaudio`, `libpulse` | Sound system | Volume widgets and keybinds | 13.0 and above |
-| `mpd` | Server-side application for playing music | Music widgets | 0.21.16 and above |
-| `mpc` | Minimalist command line interface to MPD | Music widgets | 0.33-1 and above |
-| `feh` | Image viewer and wallpaper setter | Screenshot previews, wallpapers | 3.2.1-1 and above |
-| `xorg-xwininfo` | Window information utility for X | it just works | any |
-| `xdg_menu` | Generates a list of installed applications | Useful for generating app list | any |
-| `jq` | Command-line JSON processor | Formatting | any |
+The MODKEY is set to the Super key (aka the Windows key).  I try to keep the
+keybindings consistent with all of my window managers.
 
+| Keybinding | Action |
+| :--- | :--- |
+| `MODKEY + RETURN` | opens terminal (alacritty is the terminal but can be easily changed) |
+| `MODKEY + SHIFT + RETURN` | opens run launcher (dmenu is the run launcher but can be easily changed) |
+| `MODKEY + SHIFT + c` | closes window with focus |
+| `MODKEY + SHIFT + r` | restarts awesome |
+| `MODKEY + SHIFT + q` | quits awesome |
+| `MODKEY + 1-9` | switch focus to workspace (1-9) |
+| `MODKEY + SHIFT + 1-9` | send focused window to workspace (1-9) |
+| `MODKEY + j` | switches focus between windows in the stack, going down |
+| `MODKEY + k` | switches focus between windows in the stack, going up |
+| `MODKEY + h` | switches focus between windows in the stack, going left |
+| `MODKEY + l` | switches focus between windows in the stack, going right |
+| `MODKEY + SHIFT + j` | rotates the windows in the stack, going down|
+| `MODKEY + SHIFT + k` | rotates the windows in the stack, going up |
+| `MODKEY + SHIFT + h` | rotates the windows in the stack, going left|
+| `MODKEY + SHIFT + l` | rotates the windows in the stack, going right |
+| `MODKEY + period` | switch focus to next monitor |
+| `MODKEY + comma` | switch focus to prev monitor |
 
+## Getting Help With Awesome
 
-#### Installation
-+ My setup is using the dependencies below, you can change stuff as you wise, if you want more minimal setup you are welcome to use the dependencies.
-  - awesome (window manager framework)
-  - rofi (application launcher)
-  - blueman (bluetooth widgets)
-  - xfce4-power-manager (power widget)
-  - xbacklight (adjust backlight brightness)
-  - pulseaudio, alsa-utils (volume/audio keybinds)
-  - mpd, mpc (music widget)
-  - xorg-xwininfo, xprop (custom titlebar)
-  - xdg-menu (generates app list)
-  - jq (Formatting)
-  - flameshot (screenshots)
-+ Copy the files to `$HOME/.config/awesome/`
-+ Reload Awesome using `Super + shift + r`
+#### IRC
 
+You can join the `#awesome` channel on the [OFTC](http://www.oftc.net/) IRC network.
 
-# File Structure
-This setup is split in multiple parts:
-+ `rc.lua` the core of configuration. You can enable and disable the modules here and load all your configurations.
-+ The `layout` directory contains the panel configurations. Change panel settings here or load/unload widgets.
-+ In `configuration` directory you can find all the configs about the key bindings, client rules, tags, starting apps and etc.
-+ The `module` consists of many files that are usually inside the `rc.lua` like notifications, app menus, etc. You can load them in the `rc.lua`.
-+ The `themes` folder contains themes and colors of the setup.
-+ The `widgets` contains all the widgets(of course). These are used in the panels and dashboard. It contains thenotification center, side panel(including music, calculator, weather, brightness, and volume widgets) widgets and many more.
+[IRC Webchat](https://webchat.oftc.net/?channels=awesome)
 
-# Where to edit this and that?
-+ Colorschemes?
-  - `awesome/theme`
-  - Just play with `default-theme.lua` and `SETUPNAME-theme\init.lua`
-+ Panels and bars?
-  - `awesome/layout`
-+ Client behaviour?
-  - `awesome/module/decorate-client.lua`
-+ Start-up Applications?
-  - `awesome/configuration/apps.lua`
-+ Keybindings?
-  - `awesome/configuration/keys/`
-+ Client rules?
-  - `awesome/configuration/client/keys.lua`
-+ Compositor?
-  -  `awesome/configuration/compton.conf`
-+ Rofi?
-  - `awesome/configuration/rofi/`
-+ Tags?
-  - `awesome/configuration/tags/`
-+ Icons?
-  - `awesome/theme/icons/`
-+ Wallpapers?
-  - `awesome/theme/wallpapers/`
-+ Modules?
-  - `awesome/modules`
+#### Stack Overflow
+You can ask questions on [Stack Overflow](http://stackoverflow.com/questions/tagged/awesome-wm).
 
+#### Reddit
+There is an [awesome subreddit](https://www.reddit.com/r/awesomewm/) where you can share your work and ask questions.
 
-# NOTE
-+ This setup will not mostly work out of the box because:
-  - YOU'RE NOT USING AWESOME-GIT-MASTER version
-  - Some dependencies are not currently installed
-+ Check keybindings using `Super +  F1`
+## Reporting issues
 
-# ABOUT WIDGETS AND MODULES
-+ You can disable the dialog backdrop effect in `awesome/configuration/client/rules.lua`. Just search for `dialog` and set `drawBackdrop` to false in the properties. You can also just unload the module in `rc.lua`.
+Please report any issues you have with AwesomeWM on [our bugtracker](https://github.com/awesomeWM/awesome/issues).
 
+## Contributing code
 
+You can submit pull requests on the [github repository](https://github.com/awesomeWM/awesome).
+Please read the [contributing guide](https://github.com/awesomeWM/awesome/blob/master/docs/02-contributing.md) for any coding, documentation or patch guidelines.
 
+## Documentation
 
+Online documentation is available [here](https://awesomewm.org/apidoc/).
 
+## License
 
-**Special thanks**
-+ [**ilovecookieeee**](https://github.com/ilovecookieee)
+The project is licensed under GNU General Public License v2 or later.
+You can read it online at ([v2](http://www.gnu.org/licenses/gpl-2.0.html)
+or [v3](http://www.gnu.org/licenses/gpl.html)).

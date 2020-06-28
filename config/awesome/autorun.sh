@@ -7,8 +7,8 @@ function run {
   fi
 }
 
-run telegram-desktop
-run discord-canary
-run kitty
-run google-chrome-stable
-run compton
+picom -b &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+nm-applet --no-agent &
+pkill redshift && redshift &
+variety &
