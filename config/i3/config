@@ -45,7 +45,7 @@ set $mod Mod4
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
 default_border 1pixel
 new_float normal
-border_radius 10
+#border_radius 10
 
 # Hide borders
 hide_edge_borders none
@@ -139,8 +139,6 @@ bindsym $mod+Return exec termite
 #bindsym $mod+F3 exec nautilus
 bindsym $mod+F3 exec termite -e ranger
 bindsym $mod+Shift+F3 exec kdesu thunar
-bindsym $mod+Ctrl+t exec --no-startup-id pkill compton
-bindsym $mod+Shift+t exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
 bindsym Ctrl+Shift+p --release exec --no-startup-id i3-scrot -w
 bindsym Mod1+Shift+p --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
@@ -316,8 +314,8 @@ set $ws9 9:
 # Open applications on specific workspaces
 assign [class="(?i)Firefox"] 2
 for_window [class="(?i)Firefox"] focus
-assign [class="(?i)Vivaldi"] 2
-for_window [class="(?i)Vivaldi"] focus
+assign [class="(?i)rambox"] 7
+for_window [class="(?i)rambox"] focus
 assign [class="Terminator"] 1
 assign [class="audacious"] 3
 assign [class="cantata"] 3
@@ -453,24 +451,22 @@ exec --no-startup-id ~/.config/polybar/launch-i3.sh
 exec --no-startup-id alternating_layouts.py
 exec --no-startup-id xautolock -time 10 -locker "~/.config/autolock.sh
 # exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id /usr/bin/lxpolkit
 exec --no-startup-id sxhkd
 exec --no-startup-id sxhkd -c ~/.config/sxhkd/i3.sxhkdrc
 exec --no-startup-id variety ; sleep 1; wal $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)  
 # exec --no-startup-id dwall -firewatch
 # exec --no-startup-id compton -b --config ~/.config/compton/compton.conf
-exec --no-startup-id picom -b --config ~/.config/picom.conf
-exec --no-startup-id nm-applet
+exec --no-startup-id picom -b --experimental-backends --config ~/.config/picom.conf
 exec --no-startup-id xfce4-power-manager
-exec --no-startup-id blueman-applet
+exec --no-startup-id blueberry-tray
 exec --no-startup-id redshift
 # exec --no-startup-id ~/.config/i3/scripts/start-conky-wo.sh
 exec --no-startup-id pkill flashfocus; sleep 1; flashfocus
 exec --no-startup-id albert
-exec --no-startup-id udiskie &
+exec --no-startup-id setxkbmap es
 exec --no-startup-id dunst &
 exec --no-startup-id mpd ; sleep 2; mpDris2 &
-exec --no-startup-id qbittorrent-nox &
 #############################
 ### settings for i3-gaps: ###
 #############################

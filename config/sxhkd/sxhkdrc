@@ -101,19 +101,18 @@ super + F10
 
 #Rofi
 alt + d
-    rofi -modi "combi#window#drun#run" -show combi  -theme ~/.cache/wal/colors-rofi-dark.rasi
-
+      ~/.config/rofi/launchers/launcher.sh
 #Htop
 super + h
     termite 'htop task manager' -e htop
 
 #music player
 super + m
-    lollypop
+    audacious
 
 # terminator
 super + alt + t
-    terminatoir
+    terminator
 
 #Pavucontrol
 super + v
@@ -121,7 +120,7 @@ super + v
 
 #Browser
 alt + v
-    vivaldi-stable
+    qutebrowser
 
 #Xkill
 super + Escape

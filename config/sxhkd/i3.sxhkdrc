@@ -82,7 +82,7 @@ super + u
     i3-msg border none
 
 super + y
-    i3-msg border pixel 3
+    i3-msg border pixel 1
 
 super + n
     i3-msg border normal
