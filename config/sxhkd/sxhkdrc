@@ -108,7 +108,7 @@ super + h
 
 #music player
 super + m
-    audacious
+    termite 'ncmpcpp music player' -e ncmpcpp
 
 # terminator
 super + alt + t

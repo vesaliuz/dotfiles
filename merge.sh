@@ -2,7 +2,7 @@
 
 for i in *".mkv"
 do
-    mkvmerge -o "${i%%".mkv"}_x265_AAC.mkv" -d 0 -a jpn -s jpn \
+    mkvmerge -o "${i%%".mkv"}_.mkv" -d 0 -a 1 -s 2 --default-track 2:1 \
     "$i"
     mv "$i" "${i%%".mkv"}.old"
 done

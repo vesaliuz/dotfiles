@@ -16,11 +16,19 @@ for i in *".mkv"
 do
     countdown 20 "Press Ctrl-C to stop"
     echo "####################"
-    printf "/n"
+    printf "\n"
     echo "Converting $i"
     echo "####################"
     printf "\n\n"
-    ffmpeg -i "$i"  -map 0:0 -map 0:1 -map 0:3 -c:v libx265 -crf 25 -preset medium -c:a copy -c:s copy  "${i%%".mkv"}_x265_AAC.mkv"
+    ffmpeg -i "$i"  -map 0 -c:v libx265 -crf 25 -preset fast -c:a libfdk_aac -b:a 160k -c:s copy  "${i%%".mkv"}_x265_AAC.mkv"
+    
+    # To set sub as default
+#  ffmpeg -i "$i"  -map 0:0 -map 0:1 -map 0:2 -c:v libx265 -crf 25 -preset fast -c:a libfdk_aac -b:a 192k -c:s copy -disposition:s:0 default "${i%%".mkv"}_x265_AAC.mkv"
+    
+    # Downmix to stereo
+    # ffmpeg -i "$i"  -map 0 -c:v libx265 -crf 23 -preset medium -c:a libfdk_aac -ac 2 -c:s copy  "${i%%".mkv"}_x265_AAC.mkv"
+    
     mv "$i" "${i%%".mkv"}.old"
-    echo "####################\n\nDONE\n"
+    printf "####################\n\nDONE\n"
 done
+echo "Conversion Finished"
