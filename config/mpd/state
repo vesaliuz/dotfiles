@@ -2,7 +2,7 @@ sw_volume: 58
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 109
+current: 104
 random: 1
 repeat: 1
 single: 0

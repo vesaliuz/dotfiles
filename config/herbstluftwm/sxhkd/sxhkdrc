@@ -64,7 +64,7 @@ super + e
 
 #Google-Chrome
 super + w
-    /opt/google/chrome/google-chrome
+    firefox
 
 #Conky-toggle
 super + c
@@ -157,7 +157,6 @@ ctrl + alt + w
 #arcolinux-tweak-tool
 ctrl + alt + e
      arcolinux-tweak-tool  
-
 #conky-rotate
 ctrl + alt + Next
      conky-rotate -n
