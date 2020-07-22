@@ -2,7 +2,7 @@ sw_volume: 58
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 104
+current: 16
 random: 1
 repeat: 1
 single: 0
@@ -121,4 +121,9 @@ playlist_begin
 107:Aterrizaje Forzoso - Sólo Un Sueño (2008 Remaster) (2008 Remaster).mp3
 108:iTunes/Yoko Kanno/Macross Plus ~For Fans Only~/03 Idol talk.mp3
 109:iTunes/Yoko Kanno/Macross Plus ~For Fans Only~/10 SANTI-U.mp3
+110:OST - Red Alert 3 Theme - Soviet March.mp3
+111:Kirsten Dunst   Turning Japanese HD-yP7Fp5zdKEA.mkv
+112:Senor_Coconut_Y_Su_Conjunto_-_El_Baile_Aleman/Track05.mp3
+113:Senor_Coconut_Y_Su_Conjunto_-_El_Baile_Aleman/Track04.mp3
+114:Senor_Coconut_Y_Su_Conjunto_-_El_Baile_Aleman/Track02.mp3
 playlist_end
