@@ -2,7 +2,7 @@ sw_volume: 58
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 16
+current: 17
 random: 1
 repeat: 1
 single: 0
@@ -28,102 +28,65 @@ playlist_begin
 14:iTunes/David Guetta/Nothing But the Beat Ultimate/1-01 Titanium (feat. Sia).mp3
 15:iTunes/Compilations/Awesome Mix Vol. 2/1-01 Mr. Blue Sky.m4a
 16:iTunes/Electric Light Orchestra/Electric Light Orchestra Greatest Hits/1-03 Twilight.m4a
-17:Yoko Kanno - Tanasonic (Bootleg)/34 - Moon.mp3
-18:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/02. Gene Kelly With The M-G-M Studio Orchestra - Singin' In The Rain.m4a
-19:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 4/01. Henry Mancini & His Orchestra - The Pink Panther Theme.m4a
-20:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/04. Henry Mancini & His Orchestra and Chorus - Moon River.m4a
-21:Musica/Blood+ OP&ED Singles/BLOOD+ OP2 Single - SEASONS CALL/01 - SEASON'S CALL.m4a
-22:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/07. James Brown - Living In America.m4a
-23:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/17. Jefferson Airplane - Somebody To Love.m4a
-24:iTunes/Journey/Greatest Hits (Limited Gold Edition)/09 Separate Ways (Worlds Apart).m4a
-25:iTunes/Journey/Greatest Hits (Limited Gold Edition)/12 Open Arms.m4a
-26:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 2/01. Kenny Loggins - Footloose.m4a
-27:Musica/Great Teacher Onizuka Music Collection/Kirari - Last Piece [ED1]/01. Kirari - Last Piece.mp3
-28:Musica/Great Teacher Onizuka Music Collection/L'Arc~en~Ciel - Driver's High [OP1]/01. L'Arc~en~Ciel - Driver's High.mp3
-29:iTunes/Compilations/Rurouni Kenshin -Meiji Kenkaku Romantan- Complete CD-Box [Sequence.1_ Scene.1_ ~Opening & Ending Theme Song~]/1-11 Niji.mp3
-30:Yoko Kanno - Tanasonic (Bootleg)/17 - Diamond Crevasse.mp3
-31:Yoko Kanno - Tanasonic (Bootleg)/05 - Lion.mp3
-32:Yoko Kanno - Tanasonic (Bootleg)/23 - Don't be late.mp3
-33:Yoko Kanno - Tanasonic (Bootleg)/03 - Torukia.mp3
-34:Yoko Kanno - Tanasonic (Bootleg)/25 - Medley.mp3
-35:New Trolls - Espanolada-J4e61Y0YUYo.m4a
-36:iTunes/Yoko Kanno/Ghost in the Shell STAND ALONE COMPLEX O.S.T. 2/02 rise.mp3
-37:Musica/Yoko Kanno [Discography 1990-2012]/[2003.01.22] Ghost in the Shell Stand Alone Complex OST/11. inner universe.mp3
-38:Yoko Kanno - Tanasonic (Bootleg)/04 - Inner Universe.mp3
-39:Musica/PERFUME/Level3 (Bonus Edition)/01 Enter the Sphere.m4a
-40:Musica/PERFUME/Level3 (Bonus Edition)/02 Spring of Life.m4a
-41:Musica/PERFUME/Level3 (Bonus Edition)/03 Magic of Love.m4a
-42:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 1/14 Edge (Triangle-Mix).m4a
-43:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/03. Peter Nero - Raindrops Keep Fallin' On My Head.m4a
-44:Musica/Great Teacher Onizuka Music Collection/Porno Graffitti - Hitori no Yoru [OP2]/01. Porno Graffitti - Hitori No Yoru.mp3
-45:Yoko Kanno - Tanasonic (Bootleg)/14 - Be Human.mp3
-46:Musica/Yoko Kanno [Discography 1990-2012]/[2003.01.22] Ghost in the Shell Stand Alone Complex OST/09. lithium flower.mp3
-47:Musica/Roads of old Ballads (2018)/006. Scott McKenzie - San Francisco (Be Sure To Wear Flowers In Your Hair).m4a
-48:iTunes/Compilations/Rurouni Kenshin -Meiji Kenkaku Romantan- Complete CD-Box [Sequence.1_ Scene.1_ ~Opening & Ending Theme Song~]/1-07 1_3 no Junjou na Kanjou.mp3
-49:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/09. Simon & Garfunkel - Mrs. Robinson.m4a
-50:Yoko Kanno - Tanasonic (Bootleg)/20 - Could You Bite The Hand.mp3
-51:Yoko Kanno - Tanasonic (Bootleg)/21 - Call Me Call Me.mp3
-52:Musica/Yoko Kanno [Discography 1990-2012]/[2003.03.29] Wolf's Rain OST 1/01. Stray.mp3
-53:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/06. Survivor - Eye Of The Tiger.m4a
-54:Musica/Rurouni Kenshin -2002.09.19- [-Meiji Kenkaku Romantan- Complete CD-Box]himuraTALE/Sequence.1/Scene 01 - Opening & Ending Theme Song/04 - HEART OF SWORD ~Before Daybreak~.mp3
-55:iTunes/The Seatbelts_Yoko Kanno/Cowboy Bebop OST 1 - Cowboy Bebop/01 Tank!.mp3
-56:iTunes/The Seatbelts_Yoko Kanno/Cowboy Bebop OST 5 - Future Blues/18 RAIN - Episode 5.mp3
-57:Musica/Richard Wagner [FLAC]/2005 - The Complete Operas [43 CD's]/02 - Lohengrin/CD 3/01. Vorspiel.mp3
-58:Musica/Richard Wagner [FLAC]/2005 - The Complete Operas [43 CD's]/02 - Lohengrin/CD 3/02. Aufzug 3 Szene 1 - Treulich gefuhrt, ziehet dahin (Chor).mp3
-59:Musica/Weezer - Weezer (Teal Album) (2019) [320]/01. Africa.m4a
-60:Musica/Weezer - Weezer (Teal Album) (2019) [320]/02. Everybody Wants To Rule The World.m4a
-61:Musica/Weezer - Weezer (Teal Album) (2019) [320]/03. Sweet Dreams (Are Made Of This).m4a
-62:Musica/Weezer - Weezer (Teal Album) (2019) [320]/04. Take On Me.m4a
-63:Musica/Weezer - Weezer (Teal Album) (2019) [320]/05. Happy Together.m4a
-64:Musica/Weezer - Weezer (Teal Album) (2019) [320]/06. Paranoid.m4a
-65:Musica/Weezer - Weezer (Teal Album) (2019) [320]/07. Mr. Blue Sky.m4a
-66:Musica/Weezer - Weezer (Teal Album) (2019) [320]/08. No Scrubs.m4a
-67:Musica/Weezer - Weezer (Teal Album) (2019) [320]/09. Billie Jean.m4a
-68:Musica/Weezer - Weezer (Teal Album) (2019) [320]/10. Stand By Me.m4a
-69:iTunes/Yoko Kanno/Escaflowne - Movie OST/02 First Vision.mp3
-70:iTunes/Yoko Kanno/Escaflowne - Movie OST/04 Into GAEA.mp3
-71:iTunes/Yoko Kanno/Escaflowne - Movie OST/05 竜撃隊登場.mp3
-72:iTunes/Yoko Kanno/Escaflowne - Movie OST/06 Horse ride.mp3
-73:iTunes/Yoko Kanno/Escaflowne - Movie OST/07 ガイア羊.mp3
-74:iTunes/Yoko Kanno/Escaflowne - Movie OST/08 Regret.mp3
-75:iTunes/Yoko Kanno/Escaflowne - Movie OST/09 Bird Song.mp3
-76:iTunes/Yoko Kanno/Escaflowne - Movie OST/10 Sora.mp3
-77:iTunes/Yoko Kanno/Escaflowne - Movie OST/18 Dance of curseⅡ.mp3
-78:iTunes/Yoko Kanno/Escaflowne - Movie OST/19 Black Escaflowne.mp3
-79:iTunes/Yoko Kanno/Ghost In The Shell Stand Alone Complex -/13 Some Other Time.mp3
-80:iTunes/Yoko Kanno/Ghost In The Shell Stand Alone Complex -/03 Sutamina Roozu (Stamina Rose).mp3
-81:Musica/[Album] Earphones – Some Dreams [MP3+320K+ZIP][2018.03.14]/03. 一件落着ゴ用心.mp3
-82:Musica/Yoko Kanno [Discography 1990-2012]/[1999.07.23] Turn A Gundam OST I/09. Moon.mp3
-83:Soviet Union - Anthem USSR (Best version).mp3
-84:Sweet Harmony-rB_d1Mczxqw.opus
-85:Walter Murphy - Space Adventure.mp3
-86:Willy Wonka & the Chocolate Factory - Pure Imagination.mp3
-87:Willy Wonka & the Chocolate Factory - The Candy Man.mp3
-88:OST - The Hunt for Red October - Hymn to Red October.mp3
-89:Irene Cara - Fame! I'M Gonna Live Forever.mp3
-90:Fiordaliso Non Voglio Mica La Luna Anni 60 (50 Anni di Canzoni Italiane Volume. 9)-LE4nILcLKhM.m4a
-91:Larry Owens - INTERLUDE.mp3
-92:MYTH & ROID - TIT for TAT (Cautious Hero OP).mp3
-93:New Trolls - Espanolada-J4e61Y0YUYo.m4a
-94:OST - The Hunt for Red October - Hymn to Red October.mp3
-95:Sweet Harmony-rB_d1Mczxqw.opus
-96:Walter Murphy - Space Adventure.mp3
-97:Scarlett Johansson - Summertime.mp3
-98:Red Army Choir - The Hunt For Red October.mp3
-99:Procol Harum - A Whiter Shade of Pale.mp3
-100:OST - The Hunt for Red October - Hymn to Red October.mp3
-101:New Trolls - Espanolada-J4e61Y0YUYo.m4a
-102:Jean Jacques Perrey - The Elephant Never Forgets.mp3
-103:Musica/Inti-Illimani/Inti-Illimani/(1970) Canto Al Programa/21 - Canción De Las Relaciones Internacionales.mp3
-104:Musica/Neuva cancion/La Internacional/01-La Internacional.mp3
-105:Musica/Alan Parsons Project - The Essential (Remastered) (2007) 320.MP3/Disc 2/10. Eye In The Sky.mp3
-106:iTunes/Compilations/Best Rock Anthems... Ever CD2/03 The Logical Song.m4a
-107:Aterrizaje Forzoso - Sólo Un Sueño (2008 Remaster) (2008 Remaster).mp3
-108:iTunes/Yoko Kanno/Macross Plus ~For Fans Only~/03 Idol talk.mp3
-109:iTunes/Yoko Kanno/Macross Plus ~For Fans Only~/10 SANTI-U.mp3
-110:OST - Red Alert 3 Theme - Soviet March.mp3
-111:Kirsten Dunst   Turning Japanese HD-yP7Fp5zdKEA.mkv
-112:Senor_Coconut_Y_Su_Conjunto_-_El_Baile_Aleman/Track05.mp3
-113:Senor_Coconut_Y_Su_Conjunto_-_El_Baile_Aleman/Track04.mp3
-114:Senor_Coconut_Y_Su_Conjunto_-_El_Baile_Aleman/Track02.mp3
+17:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/02. Gene Kelly With The M-G-M Studio Orchestra - Singin' In The Rain.m4a
+18:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 4/01. Henry Mancini & His Orchestra - The Pink Panther Theme.m4a
+19:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/04. Henry Mancini & His Orchestra and Chorus - Moon River.m4a
+20:Musica/Blood+ OP&ED Singles/BLOOD+ OP2 Single - SEASONS CALL/01 - SEASON'S CALL.m4a
+21:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/07. James Brown - Living In America.m4a
+22:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/17. Jefferson Airplane - Somebody To Love.m4a
+23:iTunes/Journey/Greatest Hits (Limited Gold Edition)/09 Separate Ways (Worlds Apart).m4a
+24:iTunes/Journey/Greatest Hits (Limited Gold Edition)/12 Open Arms.m4a
+25:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 2/01. Kenny Loggins - Footloose.m4a
+26:Musica/Great Teacher Onizuka Music Collection/Kirari - Last Piece [ED1]/01. Kirari - Last Piece.mp3
+27:Musica/Great Teacher Onizuka Music Collection/L'Arc~en~Ciel - Driver's High [OP1]/01. L'Arc~en~Ciel - Driver's High.mp3
+28:iTunes/Compilations/Rurouni Kenshin -Meiji Kenkaku Romantan- Complete CD-Box [Sequence.1_ Scene.1_ ~Opening & Ending Theme Song~]/1-11 Niji.mp3
+29:iTunes/Yoko Kanno/Ghost in the Shell STAND ALONE COMPLEX O.S.T. 2/02 rise.mp3
+30:Musica/Yoko Kanno [Discography 1990-2012]/[2003.01.22] Ghost in the Shell Stand Alone Complex OST/11. inner universe.mp3
+31:Musica/PERFUME/Level3 (Bonus Edition)/01 Enter the Sphere.m4a
+32:Musica/PERFUME/Level3 (Bonus Edition)/02 Spring of Life.m4a
+33:Musica/PERFUME/Level3 (Bonus Edition)/03 Magic of Love.m4a
+34:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 1/14 Edge (Triangle-Mix).m4a
+35:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/03. Peter Nero - Raindrops Keep Fallin' On My Head.m4a
+36:Musica/Great Teacher Onizuka Music Collection/Porno Graffitti - Hitori no Yoru [OP2]/01. Porno Graffitti - Hitori No Yoru.mp3
+37:Musica/Yoko Kanno [Discography 1990-2012]/[2003.01.22] Ghost in the Shell Stand Alone Complex OST/09. lithium flower.mp3
+38:Musica/Roads of old Ballads (2018)/006. Scott McKenzie - San Francisco (Be Sure To Wear Flowers In Your Hair).m4a
+39:iTunes/Compilations/Rurouni Kenshin -Meiji Kenkaku Romantan- Complete CD-Box [Sequence.1_ Scene.1_ ~Opening & Ending Theme Song~]/1-07 1_3 no Junjou na Kanjou.mp3
+40:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/09. Simon & Garfunkel - Mrs. Robinson.m4a
+41:Musica/Yoko Kanno [Discography 1990-2012]/[2003.03.29] Wolf's Rain OST 1/01. Stray.mp3
+42:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/06. Survivor - Eye Of The Tiger.m4a
+43:Musica/Rurouni Kenshin -2002.09.19- [-Meiji Kenkaku Romantan- Complete CD-Box]himuraTALE/Sequence.1/Scene 01 - Opening & Ending Theme Song/04 - HEART OF SWORD ~Before Daybreak~.mp3
+44:iTunes/The Seatbelts_Yoko Kanno/Cowboy Bebop OST 1 - Cowboy Bebop/01 Tank!.mp3
+45:iTunes/The Seatbelts_Yoko Kanno/Cowboy Bebop OST 5 - Future Blues/18 RAIN - Episode 5.mp3
+46:Musica/Richard Wagner [FLAC]/2005 - The Complete Operas [43 CD's]/02 - Lohengrin/CD 3/01. Vorspiel.mp3
+47:Musica/Richard Wagner [FLAC]/2005 - The Complete Operas [43 CD's]/02 - Lohengrin/CD 3/02. Aufzug 3 Szene 1 - Treulich gefuhrt, ziehet dahin (Chor).mp3
+48:Musica/Weezer - Weezer (Teal Album) (2019) [320]/01. Africa.m4a
+49:Musica/Weezer - Weezer (Teal Album) (2019) [320]/02. Everybody Wants To Rule The World.m4a
+50:Musica/Weezer - Weezer (Teal Album) (2019) [320]/03. Sweet Dreams (Are Made Of This).m4a
+51:Musica/Weezer - Weezer (Teal Album) (2019) [320]/04. Take On Me.m4a
+52:Musica/Weezer - Weezer (Teal Album) (2019) [320]/05. Happy Together.m4a
+53:Musica/Weezer - Weezer (Teal Album) (2019) [320]/06. Paranoid.m4a
+54:Musica/Weezer - Weezer (Teal Album) (2019) [320]/07. Mr. Blue Sky.m4a
+55:Musica/Weezer - Weezer (Teal Album) (2019) [320]/08. No Scrubs.m4a
+56:Musica/Weezer - Weezer (Teal Album) (2019) [320]/09. Billie Jean.m4a
+57:Musica/Weezer - Weezer (Teal Album) (2019) [320]/10. Stand By Me.m4a
+58:iTunes/Yoko Kanno/Escaflowne - Movie OST/02 First Vision.mp3
+59:iTunes/Yoko Kanno/Escaflowne - Movie OST/04 Into GAEA.mp3
+60:iTunes/Yoko Kanno/Escaflowne - Movie OST/05 竜撃隊登場.mp3
+61:iTunes/Yoko Kanno/Escaflowne - Movie OST/06 Horse ride.mp3
+62:iTunes/Yoko Kanno/Escaflowne - Movie OST/07 ガイア羊.mp3
+63:iTunes/Yoko Kanno/Escaflowne - Movie OST/08 Regret.mp3
+64:iTunes/Yoko Kanno/Escaflowne - Movie OST/09 Bird Song.mp3
+65:iTunes/Yoko Kanno/Escaflowne - Movie OST/10 Sora.mp3
+66:iTunes/Yoko Kanno/Escaflowne - Movie OST/18 Dance of curseⅡ.mp3
+67:iTunes/Yoko Kanno/Escaflowne - Movie OST/19 Black Escaflowne.mp3
+68:iTunes/Yoko Kanno/Ghost In The Shell Stand Alone Complex -/13 Some Other Time.mp3
+69:iTunes/Yoko Kanno/Ghost In The Shell Stand Alone Complex -/03 Sutamina Roozu (Stamina Rose).mp3
+70:Musica/[Album] Earphones – Some Dreams [MP3+320K+ZIP][2018.03.14]/03. 一件落着ゴ用心.mp3
+71:Musica/Yoko Kanno [Discography 1990-2012]/[1999.07.23] Turn A Gundam OST I/09. Moon.mp3
+72:Musica/Inti-Illimani/Inti-Illimani/(1970) Canto Al Programa/21 - Canción De Las Relaciones Internacionales.mp3
+73:Musica/Neuva cancion/La Internacional/01-La Internacional.mp3
+74:Musica/Alan Parsons Project - The Essential (Remastered) (2007) 320.MP3/Disc 2/10. Eye In The Sky.mp3
+75:iTunes/Compilations/Best Rock Anthems... Ever CD2/03 The Logical Song.m4a
+76:iTunes/Yoko Kanno/Macross Plus ~For Fans Only~/03 Idol talk.mp3
+77:iTunes/Yoko Kanno/Macross Plus ~For Fans Only~/10 SANTI-U.mp3
 playlist_end

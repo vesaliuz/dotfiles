@@ -447,7 +447,7 @@ for_window [urgent=latest] focus
 
 # Autostart applications
 
-exec --no-startup-id ~/.config/polybar/launch-i3.sh
+exec --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id alternating_layouts.py
 exec --no-startup-id xautolock -time 10 -locker "~/.config/autolock.sh
 # exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1

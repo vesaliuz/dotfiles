@@ -1,16 +1,15 @@
 alias ls='ls --color=auto'
+alias lss='ls -la | grep "^d" && ls -la | grep "^-" && ls -la | grep "^l"'
 alias fc='sudo fc-cache -fv'
-#youtube-dl
 alias cp='advcp -g'
 alias mv='advmv -g'
+#youtube-dl
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 #Cleanup orphaned packages
 alias cleanup="sudo pacman -Rns $(pacman -Qtdq)"
 alias mpdris="mpd --kill && mpd && mpDris2 &"
-alias 3tbdisk="cd /mnt/3tbdrive"
-alias 2tbdisk="cd /mnt/2tbdrive"
 alias cdgames="cd /mnt/games"
 alias yaconf='yay -Pg'
 alias yaupg='yay -Syu'

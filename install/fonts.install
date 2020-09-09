@@ -30,16 +30,7 @@ ttf-ubuntu-font-family
 ttf-ume
 ttf-unifont
 ttf-weather-icons
-ttf-yosemite-san-francisco-font-git
-otf-fira-code-git
-otf-fira-code-symbol
-otf-fira-mono
-otf-fira-sans
-otf-firamath
 otf-font-awesome
-otf-ipamjfont
-otf-san-francisco
-otf-sfmono
 otf-symbola
 ttf-indic-otf
 adobe-source-code-pro-fonts
@@ -47,8 +38,6 @@ adobe-source-sans-pro-fonts
 awesome-terminal-fonts
 awesome-terminal-fonts-patched
 cantarell-fonts
-gnu-free-fonts
-gsfonts
 nerd-fonts-complete
 noto-fonts
 noto-fonts-cjk
@@ -60,10 +49,4 @@ tamsyn-font
 terminus-font
 termsyn-font
 toilet-fonts
-ttf-font-awesome
-ttf-font-awesome-4
-ttf-font-icons
-ttf-font-logos
 ttf-mac-fonts
-ttf-ubuntu-font-family
-ttf-yosemite-san-francisco-font-git
