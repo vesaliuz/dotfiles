@@ -130,8 +130,8 @@ bindsym $mod+Return exec termite
 ################################################################################################
 
 # Screen brightness controls
-# bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
-# bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
+bindsym XF86MonBrightnessUp exec "sudo xbacklight -inc 5; notify-send 'brightness up'"
+bindsym XF86MonBrightnessDown exec "sudo xbacklight -dec 5; notify-send 'brightness down'"
 
 # Start Applications
 #bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
@@ -447,7 +447,7 @@ for_window [urgent=latest] focus
 
 # Autostart applications
 
-exec --no-startup-id ~/.config/polybar/launch-i3.sh
+exec --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id alternating_layouts.py
 exec --no-startup-id xautolock -time 10 -locker "~/.config/autolock.sh
 # exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
@@ -466,6 +466,7 @@ exec --no-startup-id pkill flashfocus; sleep 1; flashfocus
 exec --no-startup-id albert
 exec --no-startup-id setxkbmap es
 exec --no-startup-id dunst &
+exec --no-startup-id nm-applet
 exec --no-startup-id mpd ; sleep 2; mpDris2 &
 #############################
 ### settings for i3-gaps: ###

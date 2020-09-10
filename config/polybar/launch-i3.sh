@@ -9,7 +9,7 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 0.5; done
 # Auto detect hardware
 export wificard="$(ls /sys/class/net | grep wifi)"
 export ethernetcard="$(ls /sys/class/net | grep net)"
-export cputhermalzone="$(for i in /sys/class/thermal/thermal_zone*; do
+export cputhermalzone="$(for i in /sys/class/thermal/cooling_device*; do
                       if [ $(cat $i/type) = "x86_pkg_temp" ]; then
                           echo $i
                       fi

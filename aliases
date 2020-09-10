@@ -1,4 +1,5 @@
 alias ls='ls --color=auto'
+alias lss='ls -la | grep "^d" && ls -la | grep "^-" && ls -la | grep "^l"'
 alias fc='sudo fc-cache -fv'
 #youtube-dl
 alias cp='advcp -g'

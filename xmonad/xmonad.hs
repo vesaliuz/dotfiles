@@ -403,6 +403,7 @@ colorIcon name = xmobarColor iconColor blockColor $ icon name
 xmobarCommands = [ xmobarColor myColor blockColor "<fn=2>%kbd%</fn>"
                  , colorIcon "spkr.xbm" ++ " %vol%"
                  , colorIcon "cpu.xbm" ++ "%cpu%"
+                 , colorIcon "battery.xbm" ++ "%battery%"       
                  , xmobarColor myColor blockColor "IPv4" ++ " %network%"
                  , xmobarColor aaaaaa blockColor "%date%"
                  , xmobarColor "#ddddee" blockColor "%time%"

@@ -19,6 +19,7 @@ Config {
         ,Run Com "bash" ["-c", "pactl list sinks | grep -oh \"[0-9]*%\" | head -n 1 | tr -d %"] "vol" 10
         ,Run Com "bash" ["-c", ".xmonad/music.sh"] "music" 7
         ,Run Com "bash" ["-c", ".xmonad/network.sh"] "network" 60
+        ,Run Com "bash" ["-c", ".xmonad/battery.sh"] "battery" 10
         ,Run Kbd [("es", "es"), ("us", "en")]
         ,Run StdinReader
     ],
