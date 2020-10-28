@@ -36,7 +36,9 @@ playlist_separate_albums = "no"
 playlist_display_mode = "columns" (classic/columns)
 browser_display_mode = "columns"
 volume_change_step = "2"
-progressbar_look = "━━━"
+#progressbar_look = "━━━"
+progressbar_look = "●▮"
+
 data_fetching_delay = "yes"
 media_library_primary_tag = "artist"
 default_find_mode = "wrapped"
